@@ -124,7 +124,7 @@ const Services = () => {
 
             <p className="mt-1 text-sm text-gray-300">
               Boost your online visibility and rankings with our SEO services.
-              We optimize your website's structure and content to align with
+              We optimize your website&apos;s structure and content to align with
               search engine algorithms, ensuring your business is easily
               discoverable by your target audience, driving organic traffic and
               maximizing your online potential.
