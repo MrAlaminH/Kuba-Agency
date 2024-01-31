@@ -66,7 +66,7 @@ const Services = () => {
             </h2>
 
             <p className="mt-1 text-sm text-gray-300">
-              Amplify your brand's reach and engagement through strategic social
+              Amplify your brand&apos;s reach and engagement through strategic social
               media marketing. We leverage platforms to create compelling
               content, engage with your audience, and build a robust online
               community that drives results and fosters brand loyalty.
