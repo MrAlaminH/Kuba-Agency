@@ -3,7 +3,7 @@ import "tailwindcss";
 
 const Services = () => {
   return (
-    <section className="bg-transparent text-white">
+    <section id="Services" className="bg-transparent text-white">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
@@ -66,7 +66,7 @@ const Services = () => {
             </h2>
 
             <p className="mt-1 text-sm text-gray-300">
-              Amplify your brand&apos;s reach and engagement through strategic social
+              Amplify your brand reach and engagement through strategic social
               media marketing. We leverage platforms to create compelling
               content, engage with your audience, and build a robust online
               community that drives results and fosters brand loyalty.
@@ -124,7 +124,7 @@ const Services = () => {
 
             <p className="mt-1 text-sm text-gray-300">
               Boost your online visibility and rankings with our SEO services.
-              We optimize your website&apos;s structure and content to align with
+              We optimize your website structure and content to align with
               search engine algorithms, ensuring your business is easily
               discoverable by your target audience, driving organic traffic and
               maximizing your online potential.
