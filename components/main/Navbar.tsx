@@ -58,7 +58,7 @@ const Navbar = () => {
           <ul className="flex flex-col p-4 mt-4 border border-[#7042f861] bg-[#0300145e] rounded-md md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
             <li>
               <a
-                href="#about-me"
+                href="#Home"
                 className="block py-2 px-3 rounded hover:bg-[#7042f861] text-gray-200"
               >
                 Home
