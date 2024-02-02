@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
 import Image from "next/image";
 
-const testimonial = () => {
+const Testimonial = () => {
   return (
     <div className="flex flex-row relative items-center justify-center py-20">
       <div className="absolute w-auto h-auto top-0 z-[5]">
@@ -25,7 +25,7 @@ const testimonial = () => {
       <section id="testimonial" className="bg-inherit">
         <div className=" mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
-            <blockquote className="bg-green-300 rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <blockquote className="bg-indigo-500 rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8 shadow-xl transition hover:border-yellow-300/40 hover:shadow-yellow-300/40">
               <div className="flex items-center gap-4">
                 <Image
                   alt="Man"
@@ -79,20 +79,20 @@ const testimonial = () => {
                     </svg>
                   </div>
 
-                  <p className="mt-0.5 text-lg font-medium text-gray-900">
+                  <p className="mt-0.5 text-lg font-medium text-white">
                     Mr Asibur
                   </p>
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-700">
+              <p className="mt-4 text-white">
                 Exceptional service! The team consistently goes above and beyond
                 to deliver top-notch results. Their professionalism and
                 creativity have made a significant impact on our success.
               </p>
             </blockquote>
 
-            <blockquote className="bg-green-300 rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <blockquote className="bg-indigo-500 rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8 shadow-xl transition hover:border-yellow-300/40 hover:shadow-yellow-300/40">
               <div className="flex items-center gap-4">
                 <Image
                   alt="Man"
@@ -146,20 +146,20 @@ const testimonial = () => {
                     </svg>
                   </div>
 
-                  <p className="mt-0.5 text-lg font-medium text-gray-900">
+                  <p className="mt-0.5 text-lg font-medium text-white">
                     Shakil Khan
                   </p>
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-700">
+              <p className="mt-4 text-white">
                 I am incredibly impressed with the outstanding services provided
                 by this company. Their dedication to excellence and attention to
                 detail exceeded my expectations. I highly recommend them!
               </p>
             </blockquote>
 
-            <blockquote className="bg-green-300 rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <blockquote className="bg-indigo-500 rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8 shadow-xl transition hover:border-yellow-300/40 hover:shadow-yellow-300/40">
               <div className="flex items-center gap-4">
                 <Image
                   alt="Man"
@@ -213,13 +213,13 @@ const testimonial = () => {
                     </svg>
                   </div>
 
-                  <p className="mt-0.5 text-lg font-medium text-gray-900">
+                  <p className="mt-0.5 text-lg font-medium text-white">
                     Shanti Rohman
                   </p>
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-700">
+              <p className="mt-4 text-white">
                 I couldnt be happier with the results achieved by this company.
                 The level of expertise and professionalism displayed throughout
                 the entire process was truly remarkable. Thank you for a job
@@ -233,5 +233,5 @@ const testimonial = () => {
   );
 };
 
-export default testimonial;
+export default Testimonial;
 

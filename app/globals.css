@@ -4,7 +4,6 @@
 @tailwind utilities;
 
 
-
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }
@@ -69,3 +68,4 @@
 html {
   scroll-behavior: smooth;
 }
+
