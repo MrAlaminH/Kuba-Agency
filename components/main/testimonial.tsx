@@ -29,12 +29,11 @@ const Testimonial = () => {
               <div className="flex items-center gap-4">
                 <Image
                   alt="Man"
-                  src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                  src="/teso1.jpg"
                   width={80} // specify the width
                   height={80} // specify the height
                   className="h-14 w-14 rounded-full object-cover"
                 />
-
                 <div>
                   <div className="flex justify-center gap-0.5 text-green-500">
                     <svg

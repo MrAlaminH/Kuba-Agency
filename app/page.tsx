@@ -1,7 +1,7 @@
-import Testimonial from "@/components/main/Testimonial";
 import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
 import Services from "@/components/main/Services";
+import Testimonial from "@/components/main/Testimonial";
 import FAQSection from "@/components/main/FAQSection";
 
 export default function Home() {
