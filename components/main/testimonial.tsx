@@ -1,27 +1,15 @@
 "use client";
 import React from "react";
-
-import { motion } from "framer-motion";
-import { slideInFromTop } from "@/utils/motion";
 import Image from "next/image";
 
 const Testimonial = () => {
   return (
     <div className="flex flex-row relative items-center justify-center py-20">
       <div className="absolute w-auto h-auto top-0 z-[5]">
-        <motion.div
-          variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-gray-200"
-        >
-          What our awesome
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            {" "}
-            customers{" "}
-          </span>
-          say
-        </motion.div>
+        <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
+          What our awesome customers say
+        </h2>
       </div>
-
       <section id="testimonial" className="bg-inherit">
         <div className=" mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
@@ -233,4 +221,3 @@ const Testimonial = () => {
 };
 
 export default Testimonial;
-
