@@ -3,6 +3,7 @@ import Projects from "@/components/main/Projects";
 import Services from "@/components/main/Services";
 import Testimonial from "@/components/main/testimonial";
 import FAQSection from "@/components/main/FAQSection";
+import ContactForm from "@/components/main/ContactForm"
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Testimonial />
         <Projects />
         <FAQSection/>
+        <ContactForm />
       </div>
     </main>
   );

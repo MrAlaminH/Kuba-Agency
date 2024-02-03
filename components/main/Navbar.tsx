@@ -15,14 +15,14 @@ const Navbar = () => {
       <div className="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-4">
         <div className="flex items-center space-x-3">
           <Image
-            src="/walker.png"
+            src="/final_logo.png"
             alt="logo"
-            width={30}
-            height={30}
+            width={70}
+            height={70}
             className="cursor-pointer hover:animate-slowspin"
           />
           <span className="self-center text-xl font-bold text-gray-300">
-            Hedar Agency
+            Kuba Agency
           </span>
         </div>
 
