@@ -1,0 +1,81 @@
+
+import React from 'react';
+
+const ContactForm: React.FC = () => {
+  return (
+    <div className="flex items-center min-h-screen bg-transparent">
+      <div className="container mx-auto">
+        <div className="max-w-2xl mx-auto my-10 bg-transparent p-5 rounded-md shadow-sm">
+          <div className="text-center">
+            <p className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10 ">
+              Fill up the form below to send us a message.
+            </p>
+          </div>
+          <div className="m-7">
+            <form action="https://api.web3forms.com/submit" method="POST" id="form">
+              <input type="hidden" name="access_key" value="access_key" />
+              <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+              <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+              <input type="checkbox" name="botcheck" style={{ display: 'none' }} />
+              <div className="mb-6">
+                <label htmlFor="name" className="font-bold block mb-2 text-sm text-cyan-600 dark:text-cyan-400">Full Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Your Name"
+                  required
+                  className="w-full px-3 py-2 placeholder-black-300 border border-black-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-black-700 dark:text-black dark:placeholder-black-500 dark:border-black-600 dark:focus:ring-black-900 dark:focus:border-black-500"
+                />
+              </div>
+              <div className="mb-6">
+                <label htmlFor="email" className="font-bold block mb-2 text-sm text-cyan-600 dark:text-cyan-400">Email Address</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="your@gmail.com"
+                  required
+                  className="w-full px-3 py-2 placeholder-black-300 border border-black-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-black-700 dark:text-black dark:placeholder-black-500 dark:border-black-600 dark:focus:ring-black-900 dark:focus:border-black-500"
+                />
+              </div>
+              <div className="mb-6">
+                <label htmlFor="phone" className="font-bold text-sm text-cyan-600 dark:text-cyan-400">Phone Number</label>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="+1 (555) 1234-567"
+                  required
+                  className="w-full px-3 py-2 placeholder-black-300 border border-black-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-black-700 dark:text-black dark:placeholder-black-500 dark:border-black-600 dark:focus:ring-black-900 dark:focus:border-black-500"
+                />
+              </div>
+              <div className="mb-6">
+                <label htmlFor="message" className="font-bold block mb-2 text-sm text-cyan-600 dark:text-cyan-400">Your Message</label>
+                <textarea
+                  rows={5}
+                  name="message"
+                  id="message"
+                  placeholder="Your Message"
+                  required
+                  className="w-full px-3 py-2 placeholder-black-300 border border-black-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-black-700 dark:text-black dark:placeholder-black-500 dark:border-black-600 dark:focus:ring-black-900 dark:focus:border-black-500"
+                ></textarea>
+              </div>
+              <div className="mb-6">
+                <button
+                  type="submit"
+                  className="w-full px-3 py-4 text-black bg-indigo-500 rounded-md hover:bg-cyan-600 focus:outline-none"
+                >
+                  Send Message
+                </button>
+              </div>
+              <p className="text-base text-center text-black-400" id="result"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ContactForm;
