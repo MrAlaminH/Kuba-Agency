@@ -1,6 +1,5 @@
 import React from "react";
 import { SparklesIcon } from "@heroicons/react/24/solid";
-import { motion } from "framer-motion";
 import "tailwindcss";
 
 const Services = () => {
@@ -8,7 +7,7 @@ const Services = () => {
     <section id="Services" className="bg-transparent text-white">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div className="mx-auto max-w-lg text-center">
-          <div className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] text-center mx-auto ">
+          <div className="animate-bounce Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] text-center mx-auto ">
             <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
             <h1 className="Welcome-text text-[13px]">Think better with Us</h1>
           </div>
@@ -23,7 +22,7 @@ const Services = () => {
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 ">
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40 "
-            href="#"
+            
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -52,9 +51,9 @@ const Services = () => {
 
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
-            href="#"
+            
           >
-            <svg
+            <svg 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -81,7 +80,7 @@ const Services = () => {
 
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
-            href="#"
+            
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +109,7 @@ const Services = () => {
 
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
-            href="#"
+            
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -139,7 +138,7 @@ const Services = () => {
 
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
-            href="#"
+            
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -162,7 +161,7 @@ const Services = () => {
 
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
-            href="#"
+            
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

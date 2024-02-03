@@ -20,7 +20,7 @@ const HeroContent = () => {
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+          className="animate-bounce Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">Fullstack Hedar Agency</h1>
@@ -48,14 +48,19 @@ const HeroContent = () => {
           overviews. Iterative approaches to corporate strategy foster
           collaborative thinking value proposition.
         </motion.p>
-        <motion.a
+        <div>
+          <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-12 py-2.5 text-center me-2 mb-2 "
+          href="www.google.com"
+          target="_blank"
         >
           Learn More!
         </motion.a>
-      </div>
+        </div>
+        
 
+      </div>
       <motion.div
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center"
