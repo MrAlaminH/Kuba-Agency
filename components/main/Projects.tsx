@@ -27,6 +27,24 @@ const Projects = () => {
           description="2D dark line drawing, an 18th century many pakistani people in a gathering, Cinematic, comic art, digital arts, fantasy, highly detailed colored drawing"
         />
       </div>
+      <br /><br />
+      <div className=" h-full w-full flex flex-col md:flex-row gap-10 px-10">
+        <ProjectCard
+          src="/project1.jpg"
+          title="Modern Next.js Portfolio"
+          description="2D dark line drawing, A young Pakistani man with his family, Cinematic, comic art, digital arts, fantasy, highly detailed colored drawing"
+        />
+        <ProjectCard
+          src="/project2.jpg"
+          title="Interactive Website Cards"
+          description="full bright moon in a mountain area, digital arts, comics, fantasy, highly detail color drawing"
+        />
+        <ProjectCard
+          src="/project3.jpg"
+          title="Golden Aged Themed Website"
+          description="2D dark line drawing, an 18th century many pakistani people in a gathering, Cinematic, comic art, digital arts, fantasy, highly detailed colored drawing"
+        />
+      </div>
     </div>
   );
 };
