@@ -91,6 +91,14 @@ const Navbar = () => {
                 Projects
               </a>
             </li>
+            <li>
+              <a
+                href="#aboutus"
+                className="block py-2 px-3 rounded hover:bg-[#7042f861] text-gray-200"
+              >
+                About Us
+              </a>
+            </li>
           </ul>
         </div>
       </div>
