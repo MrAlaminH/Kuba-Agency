@@ -14,13 +14,16 @@ const Navbar = () => {
     <nav className="bg-[#03001417] backdrop-blur-md shadow-lg shadow-[#2A0E61]/50 fixed w-full z-50 top-0 px-10">
       <div className="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-4">
         <div className="flex items-center space-x-3">
-          <Image
-            src="/final_logo.png"
-            alt="logo"
-            width={70}
-            height={70}
-            className="cursor-pointer hover:animate-slowspin"
-          />
+          <a href="#Home">
+            <Image
+              src="/final_logo.png"
+              alt="logo"
+              width={70}
+              height={70}
+              className="cursor-pointer hover:animate-slowspin"
+            />
+          </a>
+
           <span className="self-center text-xl font-bold text-gray-300">
             Kuba Agency
           </span>
