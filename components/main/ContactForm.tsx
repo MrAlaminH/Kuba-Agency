@@ -12,8 +12,8 @@ const ContactForm: React.FC = () => {
             </p>
           </div>
           <div className="m-7">
-            <form action="https://api.web3forms.com/submit" method="POST" id="form">
-              <input type="hidden" name="access_key" value="access_key" />
+          <form action="https://api.web3forms.com/submit" method="POST" id="form">
+              <input type="hidden" name="access_key" value="222e866f-6f9f-40d8-ae89-6f10762037e3" />
               <input type="hidden" name="subject" value="New Submission from Web3Forms" />
               <input type="hidden" name="redirect" value="https://web3forms.com/success" />
               <input type="checkbox" name="botcheck" style={{ display: 'none' }} />

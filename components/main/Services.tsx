@@ -21,7 +21,7 @@ const Services = () => {
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 ">
           <a
-            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40 "
+            className="block rounded-xl border-4 border-indigo-500/100 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
             
           >
             <svg
@@ -50,7 +50,7 @@ const Services = () => {
           </a>
 
           <a
-            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
+            className="block rounded-xl border-4 border-indigo-500/100 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
             
           >
             <svg 
@@ -79,7 +79,7 @@ const Services = () => {
           </a>
 
           <a
-            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
+            className="block rounded-xl border-4 border-indigo-500/100 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
             
           >
             <svg
@@ -108,7 +108,7 @@ const Services = () => {
           </a>
 
           <a
-            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
+            className="block rounded-xl border-4 border-indigo-500/100 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
             
           >
             <svg
@@ -137,7 +137,7 @@ const Services = () => {
           </a>
 
           <a
-            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
+            className="block rounded-xl border-4 border-indigo-500/100 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
             
           >
             <svg
@@ -160,7 +160,7 @@ const Services = () => {
           </a>
 
           <a
-            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
+            className="block rounded-xl border-4 border-indigo-500/100 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
             
           >
             <svg
