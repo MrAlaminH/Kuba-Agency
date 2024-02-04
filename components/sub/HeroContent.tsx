@@ -23,7 +23,9 @@ const HeroContent = () => {
           className="animate-bounce Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">Fullstack Marketing Agency</h1>
+          <h1 className="Welcome-text text-[13px]">
+            Fullstack Marketing Agency
+          </h1>
         </motion.div>
 
         <motion.div
@@ -31,7 +33,7 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-          We&apos;re your
+            We&apos;re your
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
               secret weapon{" "}
@@ -44,33 +46,25 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Leverage agile frameworks to provide a robust synopsis for high level
-          overviews. Iterative approaches to corporate strategy foster
-          collaborative thinking value proposition.
+          We craft resonant narratives, fusing innovation with strategy to
+          amplify your brands voice. Fueled by passion, our campaigns
+          captivate, transforming curiosity into active engagement.
         </motion.p>
         <div>
           <motion.a
-          variants={slideInFromLeft(1)}
-          className="font-bold text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-12 py-2.5 text-center me-2 mb-2 "
-          href="#form"
-          
-        >
-          Contact Us
-        </motion.a>
+            variants={slideInFromLeft(1)}
+            className="font-bold text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-12 py-2.5 text-center me-2 mb-2 "
+            href="#form"
+          >
+            Contact Us
+          </motion.a>
         </div>
-        
-
       </div>
       <motion.div
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center"
       >
-        <Image
-          src="/walker.png"
-          alt="work icons"
-          height={380}
-          width={380}
-        />
+        <Image src="/walker.png" alt="work icons" height={380} width={380} />
       </motion.div>
     </motion.div>
   );

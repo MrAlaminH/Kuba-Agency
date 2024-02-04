@@ -21,7 +21,7 @@ const Services = () => {
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 ">
           <a
-            className="block rounded-xl border-4 border-indigo-500/100 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
+            className="block rounded-xl bg-lime-400  border-4 border-indigo-500/100 p-8 hover:shadow-xl hover:border-pink-500  hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40"
             
           >
             <svg
@@ -37,11 +37,11 @@ const Services = () => {
               />
             </svg>
 
-            <h2 className="mt-4 text-xl font-bold text-white">
+            <h2 className="mt-4 text-xl font-bold text-black ">
               Web Development
             </h2>
 
-            <p className="mt-1 text-sm text-gray-300">
+            <p className="mt-1 text-sm text-black ">
               Harness the power of cutting-edge web technologies as we craft
               visually stunning and highly functional websites. From responsive
               design to seamless navigation, our web development services ensure
@@ -50,7 +50,7 @@ const Services = () => {
           </a>
 
           <a
-            className="block rounded-xl border-4 border-indigo-500/100 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
+            className="block rounded-xl bg-sky-400 border-4 border-indigo-500/100 p-8 hover:shadow-xl hover:border-pink-500 hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40 transition-all"
             
           >
             <svg 
@@ -66,11 +66,11 @@ const Services = () => {
               />
             </svg>
 
-            <h2 className="mt-4 text-xl font-bold text-white">
+            <h2 className="mt-4 text-xl font-bold text-black ">
               Social Media Marketing
             </h2>
 
-            <p className="mt-1 text-sm text-gray-300">
+            <p className="mt-1 text-sm text-black ">
               Amplify your brand reach and engagement through strategic social
               media marketing. We leverage platforms to create compelling
               content, engage with your audience, and build a robust online
@@ -79,7 +79,7 @@ const Services = () => {
           </a>
 
           <a
-            className="block rounded-xl border-4 border-indigo-500/100 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
+            className="block rounded-xl border-4 bg-lime-400 border-indigo-500/100 p-8 hover:shadow-xl hover:border-pink-500 hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40 transition-all"
             
           >
             <svg
@@ -95,11 +95,11 @@ const Services = () => {
               />
             </svg>
 
-            <h2 className="mt-4 text-xl font-bold text-white">
+            <h2 className="mt-4 text-xl font-bold text-black ">
               Graphics Design
             </h2>
 
-            <p className="mt-1 text-sm text-gray-300">
+            <p className="mt-1 text-sm text-black ">
               Elevate your brand aesthetics with our top-notch graphics design
               services. Our creative team transforms ideas into visually
               captivating designs, ensuring your brand communicates effectively
@@ -108,7 +108,7 @@ const Services = () => {
           </a>
 
           <a
-            className="block rounded-xl border-4 border-indigo-500/100 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
+            className="block rounded-xl bg-sky-400 border-4 border-indigo-500/100 p-8 hover:shadow-xl hover:border-pink-500 hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40 transition-all"
             
           >
             <svg
@@ -125,9 +125,9 @@ const Services = () => {
               />
             </svg>
 
-            <h2 className="mt-4 text-xl font-bold text-white">SEO</h2>
+            <h2 className="mt-4 text-xl font-bold text-black ">SEO</h2>
 
-            <p className="mt-1 text-sm text-gray-300">
+            <p className="mt-1 text-sm text-black ">
               Boost your online visibility and rankings with our SEO services.
               We optimize your website structure and content to align with
               search engine algorithms, ensuring your business is easily
@@ -137,7 +137,7 @@ const Services = () => {
           </a>
 
           <a
-            className="block rounded-xl border-4 border-indigo-500/100 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
+            className="block rounded-xl border-4 bg-lime-400 border-indigo-500/100 p-8 hover:shadow-xl hover:border-pink-500 hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40 transition-all"
             
           >
             <svg
@@ -149,9 +149,9 @@ const Services = () => {
               <path d="M4.5 4.5a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h8.25a3 3 0 0 0 3-3v-9a3 3 0 0 0-3-3H4.5ZM19.94 18.75l-2.69-2.69V7.94l2.69-2.69c.944-.945 2.56-.276 2.56 1.06v11.38c0 1.336-1.616 2.005-2.56 1.06Z" />
             </svg>
 
-            <h2 className="mt-4 text-xl font-bold text-white">Video Editing</h2>
+            <h2 className="mt-4 text-xl font-bold text-black ">Video Editing</h2>
 
-            <p className="mt-1 text-sm text-gray-300">
+            <p className="mt-1 text-sm text-black ">
               Bring your ideas to life through expert video editing services.
               From promotional videos to tutorials, our skilled editors ensure
               your content is polished, dynamic, and resonates effectively with
@@ -160,7 +160,7 @@ const Services = () => {
           </a>
 
           <a
-            className="block rounded-xl border-4 border-indigo-500/100 p-8 shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40"
+            className="block rounded-xl bg-sky-400 border-4 border-indigo-500/100 p-8 hover:shadow-xl hover:border-pink-500 hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40 transition-all"
             
           >
             <svg
@@ -177,11 +177,11 @@ const Services = () => {
               />
             </svg>
 
-            <h2 className="mt-4 text-xl font-bold text-white">
+            <h2 className="mt-4 text-xl font-bold text-black ">
               Content Marketing
             </h2>
 
-            <p className="mt-1 text-sm text-gray-300">
+            <p className="mt-1 text-sm text-black ">
               Engage and educate your audience with compelling content tailored
               to your brand. Our content marketing strategies encompass a mix of
               informative articles, engaging visuals, and captivating

@@ -76,7 +76,7 @@ const FAQSection = () => {
   ];
 
   return (
-    <section className="py-8">
+    <section id="FAQSection" className=" py-8">
       <div className="mx-auto max-w-lg text-center">
         <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
           Frequently Asked Questions
