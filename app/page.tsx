@@ -1,7 +1,7 @@
 import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
 import Services from "@/components/main/Services";
-import Testimonial from "@/components/main/testimonial";
+import TestimonialSlider from "@/components/main/TestimonialSlider";
 import FAQSection from "@/components/main/FAQSection";
 import ContactForm from "@/components/main/ContactForm"
 import AboutUs from "@/components/main/AboutUs";
@@ -13,7 +13,7 @@ export default function Home() {
         <Hero />
         <Services />
         <AboutUs />
-        <Testimonial />
+        <TestimonialSlider />
         <Projects />
         <FAQSection/>
         <ContactForm />

@@ -47,13 +47,13 @@ const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           We craft resonant narratives, fusing innovation with strategy to
-          amplify your brands voice. Fueled by passion, our campaigns
-          captivate, transforming curiosity into active engagement.
+          amplify your brands voice. Fueled by passion, our campaigns captivate,
+          transforming curiosity into active engagement.
         </motion.p>
         <div>
           <motion.a
             variants={slideInFromLeft(1)}
-            className="font-bold text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-12 py-2.5 text-center me-2 mb-2 "
+            className="font-bold text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-lg text-sm px-12 py-2.5 text-center me-2 mb-2 "
             href="#form"
           >
             Contact Us

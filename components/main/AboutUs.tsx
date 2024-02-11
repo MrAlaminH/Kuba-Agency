@@ -24,7 +24,7 @@ const AboutUs = () => {
             Professional Fullstack Marketing Agency to provide solutions
             </h2>
             <br />
-            <div className="block rounded-xl bg-emerald-500 p-8 m-2 border-4 border-indigo-500/100 hover:shadow-xl hover:border-pink-500  hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40 ">
+            <div className="transition-all ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-emerald-500 duration-300 block rounded-xl bg-emerald-500 p-8 m-2 border-4 border-indigo-500/100 hover:shadow-xl hover:border-pink-500  hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40 ">
               <p className="text-white">
               Welcome to Kuba Agency, where innovation meets impact in the
               digital realm. As a Full-stack Marketing Agency, we transcend
