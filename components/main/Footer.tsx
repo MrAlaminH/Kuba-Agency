@@ -277,7 +277,7 @@ const Footer = () => {
 
         <div className="mt-16 border-t border-gray-100 pt-8">
           <p className="text-center text-xs/relaxed text-gray-500">
-            © Kuba Agency 2024. All rights reserved.
+            © Sodality Agency 2024. All rights reserved.
             <br />
             Created By 
             <a

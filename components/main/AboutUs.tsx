@@ -26,17 +26,17 @@ const AboutUs = () => {
             <br />
             <div className="transition-all ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-emerald-500 duration-300 block rounded-xl bg-emerald-500 p-8 m-2 border-4 border-indigo-500/100 hover:shadow-xl hover:border-pink-500  hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40 ">
               <p className="text-white">
-              Welcome to Kuba Agency, where innovation meets impact in the
+              Welcome to Sodality Agency, where innovation meets impact in the
               digital realm. As a Full-stack Marketing Agency, we transcend
               conventional boundaries, sculpting unique narratives that
               captivate audiences. Our fusion of strategic prowess and
               technological finesse ensures your brand not only stands out but
-              excels in the ever-evolving digital landscape. At Kuba Agency,
+              excels in the ever-evolving digital landscape. At sodality Agency,
               we are not just trend-followers; we are trendsetters, reshaping the
               marketing landscape with a commitment to unparalleled creativity
               and measurable results. Join us on a journey where your brands
               story becomes an immersive experience, leaving an indelible mark
-              on the digital canvas. Welcome to Kuba Agency, where your success
+              on the digital canvas. Welcome to sodality Agency, where your success
               is not just a goal but our driving force.
             </p>
             <a
