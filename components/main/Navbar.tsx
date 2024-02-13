@@ -16,10 +16,10 @@ const Navbar = () => {
         <div className="flex items-center space-x-3">
           <a href="#Home">
             <Image
-              src="/final_logo.png"
+              src="/logo.png"
               alt="logo"
-              width={70}
-              height={70}
+              width={50}
+              height={50}
               className="cursor-pointer hover:animate-slowspin"
             />
           </a>
@@ -62,7 +62,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#Home"
-                className="block py-2 px-3 rounded hover:bg-[#7042f861] text-gray-200"
+                className="block py-2 px-3 rounded hover:bg-[#7042f861] text-yellow-500 font-bold"
               >
                 Home
               </a>
