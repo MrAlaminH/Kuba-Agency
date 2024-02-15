@@ -1,46 +1,30 @@
-'use client';
-import React, { useEffect, useRef, useState } from 'react';
-import Image from "next/image";
+"use client";
+import React, { useEffect, useRef, useState } from "react";
 
 const AboutUs = () => {
-  const videoId = 'XLqmL9cPN1E'; // Replace with your actual YouTube video ID
-  const playerRef = useRef<HTMLIFrameElement | null>(null);
-  const [isPlaying, setIsPlaying] = useState(true);
-
-  useEffect(() => {
-    const playVideo = () => {
-      if (playerRef.current) {
-        playerRef.current.src = `https://www.youtube.com/embed/${videoId}?autoplay=${isPlaying ? '1' : '0'}&enablejsapi=1`;
-      }
-    };
-
-    playVideo();
-  }, [videoId, isPlaying]);
-
-  const togglePlay = () => {
-    setIsPlaying((prev) => !prev);
-  };
   return (
-    
-    <section id='aboutus' className="bg-transprent text-white py-16 px-8 md:px-20">
+    <section
+      id="aboutus"
+      className="bg-transprent text-white py-16 px-8 md:px-20"
+    >
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full lg:w-1/2 flex flex-col justify-center">
-          <h1 className="text-5xl font-bold leading-tight mb-6">
+          <h1 className="text-4xl font-bold leading-tight mb-6">
             We Are Fullstack Marketing Agency From South Asia
           </h1>
           <div>
-          <iframe
-            ref={playerRef}
-            width="95%"
-            height="400"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-          <button onClick={togglePlay} className="text-yellow-400 text-10 font-bold h-10 px-4 py-2 hover:bg-blue-500 bg-black border border-sky-100">
-            {isPlaying ? 'Pause Video' : 'Play Video'}
-          </button>
-        </div>
+            <video
+              width="95%"
+              height="auto"
+              playsInline
+              loop
+              muted
+              autoPlay
+              controls
+              src="/aboutvideo.mp4"
+              preload="auto"
+            />
+          </div>
         </div>
         <div className="w-full lg:w-1/2 flex flex-col justify-center">
           <h2 className="text-3xl font-bold mb-4 text-yellow-400">
@@ -120,9 +104,17 @@ const AboutUs = () => {
           <div className="flex justify-between items-center">
             <div className="text-yellow-400 text-6xl font-bold">230+</div>
             <div>
-              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-blue-400/90 h-10 px-4 py-2 bg-yellow-400 text-black">
-              Book A Call
-              </button>
+              <a
+                href="https://cal.com/mralamin/30min"
+                target="_blank"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-blue-400/90 h-10 px-4 py-2 bg-yellow-400 text-black"
+              >
+                Book A Call
+              </a>
+
+              {/* <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-blue-400/90 h-10 px-4 py-2 bg-yellow-400 text-black">
+                Book A Call
+              </button> */}
             </div>
           </div>
         </div>
