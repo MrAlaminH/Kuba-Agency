@@ -1,57 +1,132 @@
-import React from "react";
+'use client';
+import React, { useEffect, useRef, useState } from 'react';
 import Image from "next/image";
 
 const AboutUs = () => {
+  const videoId = 'XLqmL9cPN1E'; // Replace with your actual YouTube video ID
+  const playerRef = useRef<HTMLIFrameElement | null>(null);
+  const [isPlaying, setIsPlaying] = useState(true);
+
+  useEffect(() => {
+    const playVideo = () => {
+      if (playerRef.current) {
+        playerRef.current.src = `https://www.youtube.com/embed/${videoId}?autoplay=${isPlaying ? '1' : '0'}&enablejsapi=1`;
+      }
+    };
+
+    playVideo();
+  }, [videoId, isPlaying]);
+
+  const togglePlay = () => {
+    setIsPlaying((prev) => !prev);
+  };
   return (
-    <section id="aboutus">
-      <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
-        <div className="max-w-3xl">
-          <h2 className="text-center text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
+    
+    <section id='aboutus' className="bg-transprent text-white py-16 px-8 md:px-20">
+      <div className="container mx-auto flex flex-wrap items-center justify-between">
+        <div className="w-full lg:w-1/2 flex flex-col justify-center">
+          <h1 className="text-5xl font-bold leading-tight mb-6">
             We Are Fullstack Marketing Agency From South Asia
-          </h2>
+          </h1>
+          <div>
+          <iframe
+            ref={playerRef}
+            width="95%"
+            height="400"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+          <button onClick={togglePlay} className="text-yellow-400 text-10 font-bold h-10 px-4 py-2 hover:bg-blue-500 bg-black border border-sky-100">
+            {isPlaying ? 'Pause Video' : 'Play Video'}
+          </button>
         </div>
-
-        <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-          <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-            <img
-              alt="Party"
-              src="https://media.giphy.com/media/oAQccnVG9eTr19lxb3/giphy.gif"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
+        </div>
+        <div className="w-full lg:w-1/2 flex flex-col justify-center">
+          <h2 className="text-3xl font-bold mb-4 text-yellow-400">
+            Professional Fullstack Marketing Agency to provide solutions
+          </h2>
+          <p className="mb-4">
+            Welcome to Sodality Agency, where innovation meets impact in the
+            digital realm. As a Full-stack Marketing Agency, we transcend
+            conventional boundaries, sculpting unique narratives that captivate
+            audiences
+          </p>
+          <p className="mb-4">
+            Our fusion of strategic prowess and technological finesse ensures
+            your brand not only stands out but excels in the ever-evolving
+            digital landscape. At sodality Agency, we are not just
+            trend-followers; we are trendsetters, reshaping the marketing
+            landscape with a commitment to unparalleled creativity and
+            measurable results.
+          </p>
+          <p className="mb-6">
+            Join us on a journey where your brands story becomes an immersive
+            experience, leaving an indelible mark on the digital canvas. Welcome
+            to sodality Agency, where your success is not just a goal but our
+            driving force.
+          </p>
+          <div className="flex items-center mb-6">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="text-green-400 mr-2"
+            >
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Digital Creative Agency</span>
           </div>
-
-          <div className="lg:py-16">
-            <h2 className=" text-center text-2xl text-amber-300 font-bold sm:text-3xl ">
-              Professional Fullstack Marketing Agency to provide solutions
-            </h2>
-            <br />
-            <div className="transition-all ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-emerald-500 duration-300 block rounded-xl bg-emerald-500 p-8 m-2 border-4 border-indigo-500/100 hover:shadow-xl hover:border-pink-500  hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40 ">
-              <p className="text-white">
-                Welcome to Sodality Agency, where innovation meets impact in the
-                digital realm. As a Full-stack Marketing Agency, we transcend
-                conventional boundaries, sculpting unique narratives that
-                captivate audiences. Our fusion of strategic prowess and
-                technological finesse ensures your brand not only stands out but
-                excels in the ever-evolving digital landscape. At sodality
-                Agency, we are not just trend-followers; we are trendsetters,
-                reshaping the marketing landscape with a commitment to
-                unparalleled creativity and measurable results. Join us on a
-                journey where your brands story becomes an immersive experience,
-                leaving an indelible mark on the digital canvas. Welcome to
-                sodality Agency, where your success is not just a goal but our
-                driving force.
-              </p>
-              <a
-                href="#form"
-                className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-              >
-                Learn More!
-              </a>
+          <div className="flex items-center mb-6">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="text-green-400 mr-2"
+            >
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Professional Problem Solutions</span>
+          </div>
+          <div className="flex items-center mb-8">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="text-green-400 mr-2"
+            >
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Web Design &amp; Development</span>
+          </div>
+          <div className="flex justify-between items-center">
+            <div className="text-yellow-400 text-6xl font-bold">230+</div>
+            <div>
+              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-blue-400/90 h-10 px-4 py-2 bg-yellow-400 text-black">
+              Book A Call
+              </button>
             </div>
           </div>
         </div>
       </div>
-
       <div className="bg-transprent">
         <section
           id="features"
