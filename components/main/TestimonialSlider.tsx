@@ -1,225 +1,378 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
-import { slideInFromTop } from "@/utils/motion";
+import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 
 const TestimonialSlider = () => {
   return (
-    <div className="flex flex-row relative items-center justify-center py-20">
-      <div className="absolute w-auto h-auto top-0 z-[5]">
-        <h2 className="text-[40px] font-semibold text-transparent text-yellow-500 py-10">
-          What our awesome customers say
-        </h2>
-      </div>
-
-      <section id="testimonial" className="bg-inherit">
-        <div className=" mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-          <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
-            <blockquote className="bg-indigo-500 rounded-lg  p-6  sm:p-8 shadow-xl transition hover:border-yellow-300/40 hover:shadow-yellow-300/40">
-              <div className="flex items-center gap-4">
-                <Image
-                  alt="Man"
-                  src="/teso1.jpg"
-                  width={80} // specify the width
-                  height={80} // specify the height
-                  className="h-14 w-14 rounded-full object-cover"
-                />
-                <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  </div>
-
-                  <p className="mt-0.5 text-lg font-medium text-white">
-                    Mr Asibur
-                  </p>
-                </div>
-              </div>
-
-              <p className="mt-4 text-white">
-                Exceptional service! The team consistently goes above and beyond
-                to deliver top-notch results. Their professionalism and
-                creativity have made a significant impact on our success.
-              </p>
-            </blockquote>
-
-            <blockquote className="bg-indigo-500 rounded-lg  p-6 sm:p-8 shadow-xl transition hover:border-yellow-300/40 hover:shadow-yellow-300/40">
-              <div className="flex items-center gap-4">
-                <Image
-                  alt="Man"
-                  src="/testo2.jpg"
-                  width={80} // specify the width
-                  height={80} // specify the height
-                  className="h-14 w-14 rounded-full object-cover"
-                />
-
-                <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  </div>
-
-                  <p className="mt-0.5 text-lg font-medium text-white">
-                    Shakil Khan
-                  </p>
-                </div>
-              </div>
-
-              <p className="mt-4 text-white">
-                I am incredibly impressed with the outstanding services provided
-                by this company. Their dedication to excellence and attention to
-                detail exceeded my expectations. I highly recommend them!
-              </p>
-            </blockquote>
-
-            <blockquote className="bg-indigo-500 rounded-lg p-6 sm:p-8 shadow-xl transition hover:border-yellow-300/40 hover:shadow-yellow-300/40">
-              <div className="flex items-center gap-4">
-                <Image
-                  alt="Man"
-                  src="/testo3.jpg"
-                  width={80} // specify the width
-                  height={80} // specify the height
-                  className="h-14 w-14 rounded-full object-cover"
-                />
-
-                <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="#FAFA01"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  </div>
-
-                  <p className="mt-0.5 text-lg font-medium text-white">
-                    Shanti Rohman
-                  </p>
-                </div>
-              </div>
-
-              <p className="mt-4 text-white">
-                I couldnt be happier with the results achieved by this company.
-                The level of expertise and professionalism displayed throughout
-                the entire process was truly remarkable. Thank you for a job
-                well done!
-              </p>
-            </blockquote>
+    <section id="testimonies" className="py-20 bg-tranasprent">
+      <div className="max-w-6xl mx-8 md:mx-10 lg:mx-20 xl:mx-auto">
+        <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
+          <div className="mb-12 space-y-5 md:mb-16 md:text-center">
+            <div className="animate-bounce Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] text-center mx-auto ">
+              <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+              <h1 className="Welcome-text text-[13px]">Words from Others</h1>
+            </div>
+            <h1 className="mb-5 text-3xl font-semibold text-yellow-400 text-center md:text-center md:text-5xl">
+              It&apos;s not just us.
+            </h1>
+            <p className="text-xl text-gray-100 text-center md:text-center md:text-2xl">
+              Heres what others have to say about us.
+            </p>
           </div>
         </div>
-      </section>
-    </div>
+
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+          <ul className="space-y-8">
+            <li className="text-sm leading-6">
+              <div className="relative group">
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <a
+                  href="https://twitter.com/MdReanAhmed1"
+                  className="cursor-pointer"
+                >
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                    <div className="flex items-center space-x-4">
+                      {" "}
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1608505649662681088/Zj3txNWo_400x400.jpg"
+                        className="w-12 h-12 bg-center bg-cover border rounded-full"
+                        alt="rean"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">
+                        Dr Rean Ahmed 
+                        </h3>
+                        <p className="text-gray-500 text-md">
+                          Doctor
+                        </p>
+                      </div>
+                    </div>
+                    <p className="leading-normal text-gray-300 text-md">
+                    Sodality has transformed our online presence with their exceptional Content Marketing services. Our brand now speaks volumes, thanks to their strategic approach and creative content!
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li className="text-sm leading-6">
+              <div className="relative group">
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <a
+                  href="https://twitter.com/Bullback2025"
+                  className="cursor-pointer"
+                >
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                    <div className="flex items-center space-x-4">
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1721809225423454208/A8u6cEtT_400x400.jpg"
+                        className="w-12 h-12 bg-center bg-cover border rounded-full"
+                        alt="Shakil Khan"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">
+                        Shakil Khan
+                        </h3>
+                        <p className="text-gray-500 text-md">CEO of Rekto</p>
+                      </div>
+                    </div>
+                    <p className="leading-normal text-gray-300 text-md">
+                    Web Development excellence at its best! Sodality delivered a website that not only looks stunning but also functions flawlessly. Their expertise in creating user-friendly interfaces is truly commendable.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li className="text-sm leading-6">
+              <div className="relative group">
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <a
+                  href=""
+                  className="cursor-pointer"
+                >
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                    <div className="flex items-center space-x-4">
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg"
+                        className="w-12 h-12 bg-center bg-cover border rounded-full"
+                        alt="Kanye West"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">
+                        Asibur Rahman
+                        </h3>
+                        <p className="text-gray-500 text-md">
+                          Run a local business
+                        </p>
+                      </div>
+                    </div>
+                    <p className="leading-normal text-gray-300 text-md">
+                    Sodality&apos;s Graphic Design team turned our ideas into visually stunning realities. The creativity and professionalism they brought to our marketing collateral were beyond our expectations.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li className="text-sm leading-6">
+              <div className="relative group">
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <a
+                  href=""
+                  className="cursor-pointer"
+                >
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                    <div className="flex items-center space-x-4">
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
+                        className="w-12 h-12 bg-center bg-cover border rounded-full"
+                        alt="Tim Cook"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">
+                          Tim Cook
+                        </h3>
+                        <p className="text-gray-500 text-md">CEO of Apple</p>
+                      </div>
+                    </div>
+                    <p className="leading-normal text-gray-300 text-md">
+                    Sodality&apos;s Web Development expertise is unparalleled. They not only built a website that reflects our brand identity but also ensured it is responsive and user-friendly. A top-notch service!
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <ul className="hidden space-y-8 sm:block">
+            <li className="text-sm leading-6">
+              <div className="relative group">
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <a href="" className="cursor-pointer">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                    <div className="flex items-center space-x-4">
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1375285353146327052/y6jeByyD_400x400.jpg"
+                        className="w-12 h-12 bg-center bg-cover border rounded-full"
+                        alt="Parag Agrawal"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">
+                          Parag Agrawal
+                        </h3>
+                        <p className="text-gray-500 text-md">CEO of Twitter</p>
+                      </div>
+                    </div>
+                    <p className="leading-normal text-gray-300 text-md">
+                    Choosing Sodality for Content Marketing was a game-changer for our business. Their strategic approach and engaging content helped us build a strong online presence and connect with our target audience effectively
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li className="text-sm leading-6">
+              <div className="relative group">
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <a
+                  href=""
+                  className="cursor-pointer"
+                >
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                    <div className="flex items-center space-x-4">
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
+                        className="w-12 h-12 bg-center bg-cover border rounded-full"
+                        alt="Tim Cook"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">
+                          Tim Cook
+                        </h3>
+                        <p className="text-gray-500 text-md">CEO of Apple</p>
+                      </div>
+                    </div>
+                    <p className="leading-normal text-gray-300 text-md">
+                    Sodalitys Graphic Design team has the Midas touch! Our marketing materials now have a modern and polished look, thanks to their creativity and attention to detail. Highly recommended!
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li className="text-sm leading-6">
+              <div className="relative group">
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <a href="" className="cursor-pointer">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                    <div className="flex items-center space-x-4">
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1375285353146327052/y6jeByyD_400x400.jpg"
+                        className="w-12 h-12 bg-center bg-cover border rounded-full"
+                        alt="Parag Agrawal"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">
+                          Parag Agrawal
+                        </h3>
+                        <p className="text-gray-500 text-md">CEO of Twitter</p>
+                      </div>
+                    </div>
+                    <p className="leading-normal text-gray-300 text-md">
+                    Sodality&apos;s Video Editing added dynamism to our campaigns, creating compelling stories that resonated with our audience.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li className="text-sm leading-6">
+              <div className="relative group">
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <a
+                  href=""
+                  className="cursor-pointer"
+                >
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                    <div className="flex items-center space-x-4">
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
+                        className="w-12 h-12 bg-center bg-cover border rounded-full"
+                        alt="Tim Cook"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">
+                          Mr Cook
+                        </h3>
+                        <p className="text-gray-500 text-md">Real Estate Agent</p>
+                      </div>
+                    </div>
+                    <p className="leading-normal text-gray-300 text-md">
+                    Sodality&apos;s Web Development team built us a top-notch website - modern, responsive, and user-friendly.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <ul className="hidden space-y-8 lg:block">
+            <li className="text-sm leading-6">
+              <div className="relative group">
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <a
+                  href=""
+                  className="cursor-pointer"
+                >
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                    <div className="flex items-center space-x-4">
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_400x400.jpg"
+                        className="w-12 h-12 bg-center bg-cover border rounded-full"
+                        alt="Satya Nadella"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">
+                          Satya Nadella
+                        </h3>
+                        <p className="text-gray-500 text-md">
+                          CEO of Microsoft
+                        </p>
+                      </div>
+                    </div>
+                    <p className="leading-normal text-gray-300 text-md">
+                     Awsome works
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li className="text-sm leading-6">
+              <div className="relative group">
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <a
+                  href=""
+                  className="cursor-pointer"
+                >
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                    <div className="flex items-center space-x-4">
+                      <img
+                        src="https://pbs.twimg.com/profile_images/516916920482672641/3jCeLgFb_400x400.jpeg"
+                        className="w-12 h-12 bg-center bg-cover border rounded-full"
+                        alt="Dan Schulman"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">
+                          Dan Schulman
+                        </h3>
+                        <p className="text-gray-500 text-md">CEO of PayPal</p>
+                      </div>
+                    </div>
+                    <p className="leading-normal text-gray-300 text-md">
+                    Sodality&apos;s Graphic Design team turned our ideas into visually stunning realities. The creativity and professionalism they brought to our marketing collateral were beyond our expectations.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li className="text-sm leading-6">
+              <div className="relative group">
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <a
+                  href=""
+                  className="cursor-pointer"
+                >
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                    <div className="flex items-center space-x-4">
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_400x400.jpg"
+                        className="w-12 h-12 bg-center bg-cover border rounded-full"
+                        alt="Satya Nadella"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">
+                          Satya Nadella
+                        </h3>
+                        <p className="text-gray-500 text-md">
+                          CEO of Microsoft
+                        </p>
+                      </div>
+                    </div>
+                    <p className="leading-normal text-gray-300 text-md">
+                    Sodality&apos;s Content Marketing services - strategic, engaging, and effective. Our online presence has never been stronger.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li className="text-sm leading-6">
+              <div className="relative group">
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <a
+                  href=""
+                  className="cursor-pointer"
+                >
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                    <div className="flex items-center space-x-4">
+                      <img
+                        src="https://pbs.twimg.com/profile_images/516916920482672641/3jCeLgFb_400x400.jpeg"
+                        className="w-12 h-12 bg-center bg-cover border rounded-full"
+                        alt="Dan Schulman"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">
+                          Dan Schulman
+                        </h3>
+                        <p className="text-gray-500 text-md">CEO of PayPal</p>
+                      </div>
+                    </div>
+                    <p className="leading-normal text-gray-300 text-md">
+                    super work I&apos;m satisfied with their work
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
   );
 };
 

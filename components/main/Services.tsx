@@ -1,6 +1,8 @@
 import React from "react";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import "tailwindcss";
+import Image from "next/image";
+import Marquee from "react-fast-marquee";
 
 const Services = () => {
   return (
@@ -20,15 +22,12 @@ const Services = () => {
         </div>
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 ">
-          <a
-            className="transition-all ease-in-out delay-150 bg-lime-400 hover:-translate-y-1 hover:scale-110 hover:bg-lime-400 duration-300 block rounded-xl border-4 border-indigo-500/100 p-8 hover:shadow-xl hover:border-pink-500  hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40"
-            
-          >
+          <a className="transition-all ease-in-out delay-150 bg-orange-400 hover:-translate-y-1 hover:scale-110 hover:bg-orange-400 duration-300 block rounded-xl border-4 border-indigo-500/100 p-8 hover:shadow-xl hover:border-indigo-500  hover:border-opacity-40 hover:shadow-indigo-500 hover:shadow-opacity-40">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-10 h-10 text-pink-500 "
+              className="w-10 h-10 text-indigo-500 "
             >
               <path
                 fillRule="evenodd"
@@ -49,15 +48,12 @@ const Services = () => {
             </p>
           </a>
 
-          <a
-            className="transition-all ease-in-out delay-150 bg-sky-400 hover:-translate-y-1 hover:scale-110 hover:bg-sky-400 duration-300 block rounded-xl border-4 border-indigo-500/100 p-8 hover:shadow-xl hover:border-pink-500 hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40 "
-            
-          >
-            <svg 
+          <a className="transition-all ease-in-out delay-150 bg-sky-300 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300 duration-300 block rounded-xl border-4 border-indigo-500/100 p-8 hover:shadow-xl hover:border-indigo-500 hover:border-opacity-40 hover:shadow-indigo-500 hover:shadow-opacity-40 ">
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-10 h-10 text-pink-500 "
+              className="w-10 h-10 text-indigo-500 "
             >
               <path
                 fillRule="evenodd"
@@ -78,15 +74,12 @@ const Services = () => {
             </p>
           </a>
 
-          <a
-            className="transition-all ease-in-out delay-150 bg-lime-400  hover:-translate-y-1 hover:scale-110 hover:bg-lime-400 duration-300 block rounded-xl border-4  border-indigo-500/100 p-8 hover:shadow-xl hover:border-pink-500 hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40 "
-            
-          >
+          <a className="transition-all ease-in-out delay-150 bg-orange-400 hover:-translate-y-1 hover:scale-110 hover:bg-orange-400 duration-300 block rounded-xl border-4  border-indigo-500/100 p-8 hover:shadow-xl hover:border-indigo-500 hover:border-opacity-40 hover:shadow-indigo-500 hover:shadow-opacity-40 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-10 h-10 text-pink-500 "
+              className="w-10 h-10 text-indigo-500 "
             >
               <path
                 fillRule="evenodd"
@@ -107,15 +100,12 @@ const Services = () => {
             </p>
           </a>
 
-          <a
-            className="transition-all ease-in-out delay-150 bg-sky-400 hover:-translate-y-1 hover:scale-110 hover:bg-sky-400 duration-300 block rounded-xl border-4 border-indigo-500/100 p-8 hover:shadow-xl hover:border-pink-500 hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40 "
-            
-          >
+          <a className="transition-all ease-in-out delay-150 bg-orange-400 hover:-translate-y-1 hover:scale-110 hover:bg-orange-400 duration-300 block rounded-xl border-4 border-indigo-500/100 p-8 hover:shadow-xl hover:border-indigo-500 hover:border-opacity-40 hover:shadow-indigo-500 hover:shadow-opacity-40 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-10 h-10 text-pink-500 "
+              className="w-10 h-10 text-indigo-500 "
             >
               <path d="M8.25 10.875a2.625 2.625 0 1 1 5.25 0 2.625 2.625 0 0 1-5.25 0Z" />
               <path
@@ -136,20 +126,19 @@ const Services = () => {
             </p>
           </a>
 
-          <a
-            className="transition-all ease-in-out delay-150 bg-lime-400  hover:-translate-y-1 hover:scale-110 hover:bg-lime-400  duration-300 block rounded-xl border-4 border-indigo-500/100 p-8 hover:shadow-xl hover:border-pink-500 hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40"
-            
-          >
+          <a className="transition-all ease-in-out delay-150 bg-sky-300 hover:-translate-y-1 hover:scale-110 hover:bg-sky-300  duration-300 block rounded-xl border-4 border-indigo-500/100 p-8 hover:shadow-xl hover:border-indigo-500 hover:border-opacity-40 hover:shadow-indigo-500 hover:shadow-opacity-40">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-10 h-10 text-pink-500 "
+              className="w-10 h-10 text-indigo-500 "
             >
               <path d="M4.5 4.5a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h8.25a3 3 0 0 0 3-3v-9a3 3 0 0 0-3-3H4.5ZM19.94 18.75l-2.69-2.69V7.94l2.69-2.69c.944-.945 2.56-.276 2.56 1.06v11.38c0 1.336-1.616 2.005-2.56 1.06Z" />
             </svg>
 
-            <h2 className="mt-4 text-xl font-bold text-black ">Video Editing</h2>
+            <h2 className="mt-4 text-xl font-bold text-black ">
+              Video Editing
+            </h2>
 
             <p className="mt-1 text-sm text-black ">
               Bring your ideas to life through expert video editing services.
@@ -159,15 +148,12 @@ const Services = () => {
             </p>
           </a>
 
-          <a
-            className="transition-all ease-in-out delay-150 bg-sky-400 hover:-translate-y-1 hover:scale-110 hover:bg-sky-400 duration-300 block rounded-xl border-4 border-indigo-500/100 p-8 hover:shadow-xl hover:border-pink-500 hover:border-opacity-40 hover:shadow-pink-500 hover:shadow-opacity-40 "
-            
-          >
+          <a className="transition-all ease-in-out delay-150 bg-orange-400 hover:-translate-y-1 hover:scale-110 hover:bg-orange-400 duration-300 block rounded-xl border-4 border-indigo-500/100 p-8 hover:shadow-xl hover:border-indigo-500 hover:border-opacity-40 hover:shadow-indigo-500 hover:shadow-opacity-40 ">
             <svg
-              xmlns="http://www.w3.org/2000/svg" 
+              xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-10 h-10 text-pink-500  "
+              className="w-10 h-10 text-indigo-500  "
             >
               <path d="M12 .75a8.25 8.25 0 0 0-4.135 15.39c.686.398 1.115 1.008 1.134 1.623a.75.75 0 0 0 .577.706c.352.083.71.148 1.074.195.323.041.6-.218.6-.544v-4.661a6.714 6.714 0 0 1-.937-.171.75.75 0 1 1 .374-1.453 5.261 5.261 0 0 0 2.626 0 .75.75 0 1 1 .374 1.452 6.712 6.712 0 0 1-.937.172v4.66c0 .327.277.586.6.545.364-.047.722-.112 1.074-.195a.75.75 0 0 0 .577-.706c.02-.615.448-1.225 1.134-1.623A8.25 8.25 0 0 0 12 .75Z" />
               <path
@@ -191,20 +177,80 @@ const Services = () => {
         </div>
       </div>
 
-      {/* Video background */}
-      {/* <div className="w-full h-full absolute">
-        <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
-          <video
-            className="w-full h-auto"
-            preload="false"
-            playsInline
-            loop
-            muted
-            autoPlay
-            src="/cards-video.webm"
-          />
+      {/* Companys who worked with us */}
+
+      <div className="max-w-7xl mx-auto flex flex-wrap justify-around gap-8 py-12 px-4">
+        <h2 className="w-full mb-4 -mt-4 text-center text-3xl  font-semibold text-yellow-400 tracking-wider">
+          Trusted by the best
+        </h2>
+        <p className="text-center">
+          Elevate your digital journey with our professional services
+        </p>
+      </div>
+
+      <Marquee
+        direction="left"
+        speed={50}
+        loop={0}
+        pauseOnClick={true}
+        gradient={true}
+        gradientColor="#000000"
+        gradientWidth={200}
+        autoFill={true}
+      >
+        <div>
+          <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none anima mask-section">
+            
+            <li>
+              <Image src="/carolo.png" alt="logo" height={120} width={120} />
+            </li>
+            <li>
+              <Image src="/masum.png" alt="logo" height={120} width={120} />
+            </li>
+            <li>
+              <Image src="/kuba.png" alt="logo" height={120} width={120} />
+            </li>
+            
+            <li>
+              <Image src="/nazny.png" alt="logo" height={120} width={120} />
+            </li>
+            <li>
+              <Image src="/rekto.png" alt="logo" height={120} width={120} />
+            </li>
+          </ul>
         </div>
-      </div> */}
+      </Marquee>
+      <Marquee
+        direction="right"
+        speed={50}
+        loop={0}
+        pauseOnClick={true}
+        gradient={true}
+        gradientColor="#000000"
+        gradientWidth={200}
+        autoFill={true}
+      >
+        <div>
+          <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none anima mask-section">
+            
+            <li>
+              <Image src="/kuba.png" alt="logo" height={120} width={120} />
+            </li>
+            <li>
+              <Image src="/nazny.png" alt="logo" height={120} width={120} />
+            </li>
+            <li>
+              <Image src="/rekto.png" alt="logo" height={120} width={120} />
+            </li>
+            <li>
+              <Image src="/carolo.png" alt="logo" height={120} width={120} />
+            </li>
+            <li>
+              <Image src="/masum.png" alt="logo" height={120} width={120} />
+            </li>
+          </ul>
+        </div>
+      </Marquee>
     </section>
   );
 };

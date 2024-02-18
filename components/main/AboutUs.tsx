@@ -138,7 +138,7 @@ const AboutUs = () => {
 
           <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
             {/* First Feature */}
-            <div className="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40">
+            <div className="rounded-md border border-neutral-800 bg-slate-800 p-8 text-center shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40">
               <div
                 className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
                 style={{
@@ -174,7 +174,7 @@ const AboutUs = () => {
             </div>
 
             {/* Second Feature */}
-            <div className="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40">
+            <div className="rounded-md border border-neutral-800 bg-slate-800 p-8 text-center shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40">
               <div
                 className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
                 style={{
@@ -208,7 +208,7 @@ const AboutUs = () => {
             </div>
 
             {/* Third Feature */}
-            <div className="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40">
+            <div className="rounded-md border border-neutral-800 bg-slate-800 p-8 text-center shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40">
               <div
                 className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
                 style={{
