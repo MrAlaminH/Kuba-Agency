@@ -1,7 +1,5 @@
-"use client";
 import React from "react";
 import HeroContent from "../sub/HeroContent";
-import Spline from '@splinetool/react-spline';
 
 const Hero = () => {
   return (
