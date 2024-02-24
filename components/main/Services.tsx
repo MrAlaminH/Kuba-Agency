@@ -13,10 +13,10 @@ const Services = () => {
             <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
             <h1 className="Welcome-text text-[13px]">Think better with Us</h1>
           </div>
-          <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
+          <h2 className="text-[40px] font-semibold text-transparent bg-clip-text text-yellow-400 py-10">
             Services we can help you with
           </h2>
-          <p className="mt-4 text-purple-300">
+          <p className="mt-4 text-white">
             Corporate strategy collaborative value proposition.
           </p>
         </div>

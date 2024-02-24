@@ -62,7 +62,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#Home"
-                className="block py-2 px-3 rounded hover:bg-[#7042f861] text-yellow-500 font-bold"
+                className="block py-2 px-3 rounded hover:bg-[#7042f861] text-yellow-400 font-bold"
               >
                 Home
               </a>

@@ -93,7 +93,7 @@ const TestimonialSlider = () => {
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
-                        src="https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1754745467387232256/MsY_M5wL_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Kanye West"
                       />
@@ -123,15 +123,15 @@ const TestimonialSlider = () => {
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
-                        src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1670905743619268609/pYItlWat_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
-                        alt="Tim Cook"
+                        alt="Mr Ryan"
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Tim Cook
+                        Mr Ryan
                         </h3>
-                        <p className="text-gray-500 text-md">CEO of Apple</p>
+                        <p className="text-gray-500 text-md">CEO of bento</p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
@@ -151,15 +151,15 @@ const TestimonialSlider = () => {
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
-                        src="https://pbs.twimg.com/profile_images/1375285353146327052/y6jeByyD_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1743430067978473472/oDcjillI_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Parag Agrawal"
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Parag Agrawal
+                          Agrawal
                         </h3>
-                        <p className="text-gray-500 text-md">CEO of Twitter</p>
+                        <p className="text-gray-500 text-md">Restaurant Owner</p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
@@ -179,15 +179,15 @@ const TestimonialSlider = () => {
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
-                        src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1733406256105177088/VboDuWfl_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
-                        alt="Tim Cook"
+                        alt="Timothy D. Cook"
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Tim Cook
+                          Timothy D. Cook
                         </h3>
-                        <p className="text-gray-500 text-md">CEO of Apple</p>
+                        <p className="text-gray-500 text-md">Run Vendor Business</p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
@@ -206,13 +206,13 @@ const TestimonialSlider = () => {
                       <img
                         src="https://pbs.twimg.com/profile_images/1375285353146327052/y6jeByyD_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
-                        alt="Parag Agrawal"
+                        alt="Nazmul Hossen"
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Parag Agrawal
+                          Nazmul Hossen
                         </h3>
-                        <p className="text-gray-500 text-md">CEO of Twitter</p>
+                        <p className="text-gray-500 text-md">Owner of Buying House </p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
@@ -232,13 +232,13 @@ const TestimonialSlider = () => {
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
-                        src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1724687865471455232/-rc2ShfE_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
-                        alt="Tim Cook"
+                        alt="Mr Hassan"
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Mr Cook
+                          Mr Hassan
                         </h3>
                         <p className="text-gray-500 text-md">Real Estate Agent</p>
                       </div>
@@ -263,16 +263,16 @@ const TestimonialSlider = () => {
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
-                        src="https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1581916687628087296/YFTwuoXE_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Satya Nadella"
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Satya Nadella
+                          Zahid Khan
                         </h3>
                         <p className="text-gray-500 text-md">
-                          CEO of Microsoft
+                          Run a Exchange Business
                         </p>
                       </div>
                     </div>
@@ -295,13 +295,13 @@ const TestimonialSlider = () => {
                       <img
                         src="https://pbs.twimg.com/profile_images/516916920482672641/3jCeLgFb_400x400.jpeg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
-                        alt="Dan Schulman"
+                        alt="Adam Neumann"
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Dan Schulman
+                        Adam Neumann
                         </h3>
-                        <p className="text-gray-500 text-md">CEO of PayPal</p>
+                        <p className="text-gray-500 text-md">Agency Owner</p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
@@ -321,16 +321,16 @@ const TestimonialSlider = () => {
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
-                        src="https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1250275834444701704/9L7QwQCq_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
-                        alt="Satya Nadella"
+                        alt="Sarah Joyce Franklin"
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Satya Nadella
+                        Sarah Joyce Franklin
                         </h3>
                         <p className="text-gray-500 text-md">
-                          CEO of Microsoft
+                        CEO of latticeHQ
                         </p>
                       </div>
                     </div>
@@ -351,15 +351,15 @@ const TestimonialSlider = () => {
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
-                        src="https://pbs.twimg.com/profile_images/516916920482672641/3jCeLgFb_400x400.jpeg"
+                        src="https://pbs.twimg.com/profile_images/1259558245/vala_300dpi_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
-                        alt="Dan Schulman"
+                        alt="Vala Afshar"
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Dan Schulman
+                        Vala Afshar
                         </h3>
-                        <p className="text-gray-500 text-md">CEO of PayPal</p>
+                        <p className="text-gray-500 text-md">Chief Digital Evangelist</p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
