@@ -9,20 +9,17 @@ import {
 } from "@/utils/motion";
 
 import SliderOne from "@/components/main/slider";
+import { SparklesIcon } from "@heroicons/react/24/solid";
 
 const HeroContent = () => {
   return (
     <motion.div initial="hidden"
     animate="visible"
      className="flex flex-col items-center justify-center text-center px-4 py-10 sm:py-16 lg:py-24 bg-tresprent min-h-screen">
-      <motion.a
-        href=""
-        variants={slideInFromTop}
-        className= "border border-white-700 dark:border-gray-300 rounded-lg py-2 px-4 text-white-400 dark:text-gray-300 text-sm mb-3 sm:mb-5 mt-20 sm:mt-20 "
-        
-      >
-        Fullstack Marketing Agency 🟢
-      </motion.a>
+      <motion.div variants={slideInFromTop} className=" text-sm mb-3 sm:mb-5 mt-20 sm:mt-20 Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] text-center mx-auto ">
+              <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+              <h1 className="Welcome-text text-[13px]">Fullstack Marketing Agency</h1>
+            </motion.div>
       <motion.h1 variants={slideInFromLeft(0.6)} className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-white sm:text-7xl">
         <span className="inline-block">We&apos;re your secret weapon in the  
             <span className="relative whitespace-nowrap text-orange-600">
@@ -41,7 +38,7 @@ const HeroContent = () => {
       >
         Book A Call
       </motion.a>
-      <motion.div variants={slideInFromBottom(0.8)} className="w-full pt-20">
+      <motion.div variants={slideInFromBottom(0.9)} className="w-full pt-20">
         <SliderOne />
       </motion.div>
     </motion.div>
