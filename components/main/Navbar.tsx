@@ -100,6 +100,15 @@ const Navbar = () => {
                 About Us
               </a>
             </li>
+            <li>
+            <Link
+            href="https://cal.com/mralamin/30min"
+            target="_blank"
+            className="md:hidden block py-2 rounded-xl border border-orange-600 bg-orange-600 px-6 font-medium text-white hover:bg-gray-800"
+          >
+            Contact Us
+          </Link>
+            </li>
           </ul>
         </div>
         <div className="hidden md:flex">
@@ -108,7 +117,7 @@ const Navbar = () => {
             target="_blank"
             className="inline-flex h-12 items-center justify-center rounded-xl border border-orange-600 bg-orange-600 px-6 font-medium text-white hover:bg-gray-800"
           >
-            Contact
+            Contact Us
           </Link>
         </div>
       </div>
