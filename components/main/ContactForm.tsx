@@ -1,6 +1,5 @@
-
-import React from 'react';
-
+import React from "react";
+import Marquee from "react-fast-marquee";
 const ContactForm: React.FC = () => {
   return (
     <div className="flex items-center min-h-screen bg-transparent">
@@ -12,13 +11,38 @@ const ContactForm: React.FC = () => {
             </p>
           </div>
           <div className="m-7">
-          <form action="https://api.web3forms.com/submit" method="POST" id="form">
-              <input type="hidden" name="access_key" value="222e866f-6f9f-40d8-ae89-6f10762037e3" />
-              <input type="hidden" name="subject" value="New Submission from Web3Forms" />
-              <input type="hidden" name="redirect" value="https://web3forms.com/success" />
-              <input type="checkbox" name="botcheck" style={{ display: 'none' }} />
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              id="form"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="222e866f-6f9f-40d8-ae89-6f10762037e3"
+              />
+              <input
+                type="hidden"
+                name="subject"
+                value="New Submission from Web3Forms"
+              />
+              <input
+                type="hidden"
+                name="redirect"
+                value="https://web3forms.com/success"
+              />
+              <input
+                type="checkbox"
+                name="botcheck"
+                style={{ display: "none" }}
+              />
               <div className="mb-6">
-                <label htmlFor="name" className="font-bold block mb-2 text-sm text-orange-600 dark:text-orange-600">Full Name</label>
+                <label
+                  htmlFor="name"
+                  className="font-bold block mb-2 text-sm text-orange-600 dark:text-orange-600"
+                >
+                  Full Name
+                </label>
                 <input
                   type="text"
                   name="name"
@@ -29,7 +53,12 @@ const ContactForm: React.FC = () => {
                 />
               </div>
               <div className="mb-6">
-                <label htmlFor="email" className="font-bold block mb-2 text-sm text-orange-600 dark:text-orange-600">Email Address</label>
+                <label
+                  htmlFor="email"
+                  className="font-bold block mb-2 text-sm text-orange-600 dark:text-orange-600"
+                >
+                  Email Address
+                </label>
                 <input
                   type="email"
                   name="email"
@@ -40,7 +69,12 @@ const ContactForm: React.FC = () => {
                 />
               </div>
               <div className="mb-6">
-                <label htmlFor="phone" className="font-bold text-sm text-orange-600 dark:text-orange-600">Phone Number</label>
+                <label
+                  htmlFor="phone"
+                  className="font-bold text-sm text-orange-600 dark:text-orange-600"
+                >
+                  Phone Number
+                </label>
                 <input
                   type="text"
                   name="phone"
@@ -51,7 +85,12 @@ const ContactForm: React.FC = () => {
                 />
               </div>
               <div className="mb-6">
-                <label htmlFor="message" className="font-bold block mb-2 text-sm text-orange-600 dark:text-orange-600">Your Message</label>
+                <label
+                  htmlFor="message"
+                  className="font-bold block mb-2 text-sm text-orange-600 dark:text-orange-600"
+                >
+                  Your Message
+                </label>
                 <textarea
                   rows={5}
                   name="message"
@@ -69,7 +108,10 @@ const ContactForm: React.FC = () => {
                   Send Message
                 </button>
               </div>
-              <p className="text-base text-center text-black-400" id="result"></p>
+              <p
+                className="text-base text-center text-black-400"
+                id="result"
+              ></p>
             </form>
           </div>
         </div>

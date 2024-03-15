@@ -9,61 +9,64 @@ const Projects = () => {
   const [showLoadMore, setShowLoadMore] = useState(true);
 
   const projectsData = [
-  {  src: "/slider1.png",
-    title: "Modern Next.js Portfolio",
-    description:
-      "2D dark line drawing, A young Pakistani man with his family, Cinematic, comic art, digital arts, fantasy, highly detailed colored drawing",
-    categories: ["Graphics Design", "SMM"],
-  },
-  {
-    src: "/slider2.png",
-    title: "Interactive Website Cards",
-    description:
-      "full bright moon in a mountain area, digital arts, comics, fantasy, highly detail color drawing",
-    categories: ["Graphics Design"],
-  },
-  {
-    src: "/slider3.png",
-    title: "Golden Aged Themed Website",
-    description:
-      "2D dark line drawing, an 18th century many Pakistani people in a gathering, Cinematic, comic art, digital arts, fantasy, highly detailed colored drawing",
-    categories: ["Graphics Design"],
-  },
-  {
-    src: "/work2.png",
-    title: "Golden Aged Themed Website",
-    description:
-      "2D dark line drawing, an 18th century many Pakistani people in a gathering, Cinematic, comic art, digital arts, fantasy, highly detailed colored drawing",
-    categories: ["Web Development" ],
-  },
-  {
-    src: "/work1.png",
-    title: "Golden Aged Themed Website",
-    description:
-      "2D dark line drawing, an 18th century many Pakistani people in a gathering, Cinematic, comic art, digital arts, fantasy, highly detailed colored drawing",
-    categories: ["Web Development" ],
-  },
-  {
-    src: "/slider4.png",
-    title: "Golden Aged Themed Website",
-    description:
-      "2D dark line drawing, an 18th century many Pakistani people in a gathering, Cinematic, comic art, digital arts, fantasy, highly detailed colored drawing",
-    categories: ["Web Development"],
-  },
-  {
-    src: "/slider5.png",
-    title: "Golden Aged Themed Website",
-    description:
-      "2D dark line drawing, an 18th century many Pakistani people in a gathering, Cinematic, comic art, digital arts, fantasy, highly detailed colored drawing",
-    categories: ["Web Development"],
-  },
-  {
-    src: "/slider6.png",
-    title: "Golden Aged Themed Website",
-    description:
-      "2D dark line drawing, an 18th century many Pakistani people in a gathering, Cinematic, comic art, digital arts, fantasy, highly detailed colored drawing",
-    categories: ["Web Development"],
-  },
+    {
+      src: "/slider4.png",
+      title: "Gym Website Showcase",
+      description:
+        "Check out this sleek gym website example designed to inspire fitness enthusiasts. It features modern design elements and interactive features to engage users and promote a healthy lifestyle.",
+      categories: ["Graphics Design", "SMM"],
+    },
+    {
+      src: "/slider2.png",
+      title: "Real Estate Website Demo",
+      description:
+        "Explore this sophisticated real estate website example, showcasing stunning properties and intuitive search functionalities. It offers a seamless user experience for property buyers and sellers alike.",
+      categories: ["Graphics Design"],
+    },
+    {
+      src: "/slider1.png",
+      title: "Crypto Website Preview",
+      description:
+        "Dive into this dynamic crypto website example, highlighting the latest trends and insights in the cryptocurrency world. It provides valuable resources and tools for both novice and experienced traders.",
+      categories: ["Graphics Design"],
+    },
+    {
+      src: "/slider6.png",
+      title: "Car Detailing Website Demo",
+      description:
+        "Experience this professional car detailing website example, featuring high-resolution images and informative content to showcase the quality of services offered. It's designed to attract car enthusiasts and detail-oriented customers.",
+      categories: ["Web Development"],
+    },
+    {
+      src: "/work1.png",
+      title: "Travel Website Preview",
+      description:
+        "Embark on a journey with this captivating travel website example, offering enticing destinations and travel tips. It's designed to inspire wanderlust and facilitate seamless trip planning for adventurers.",
+      categories: ["Web Development"],
+    },
+    {
+      src: "/slider3.png",
+      title: "Luxury Real Estate Website Demo",
+      description:
+        "Step into the world of luxury with this real estate website example, featuring exquisite properties and immersive virtual tours. It caters to high-end clientele seeking premium real estate options.",
+      categories: ["Web Development"],
+    },
+    {
+      src: "/slider5.png",
+      title: "Adventure Travel Website Preview",
+      description:
+        "Get ready for an adventure with this exciting travel website example, showcasing adrenaline-pumping activities and off-the-beaten-path destinations. It's designed for thrill-seekers and explorers.",
+      categories: ["Web Development"],
+    },
+    {
+      src: "/work2.png",
+      title: "Crypto Investment Website Preview",
+      description:
+        "Explore potential opportunities in the world of cryptocurrency with this informative investment website example. It provides valuable insights and analysis to help users make informed investment decisions.",
+      categories: ["Web Development"],
+    }
+    
+    
   // Add more projects with categories as needed
   ];
 

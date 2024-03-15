@@ -25,7 +25,7 @@ const Navbar = () => {
             />
           </a>
 
-          <span className="self-center text-xl font-bold text-gray-300">
+          <span className="self-center text-xl font-bold text-white">
           Sodality
           </span>
         </div>
