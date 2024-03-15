@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-transparent">
       <div className="bg-transparent mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-md">
-          <strong className="block text-center text-[30px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
+          <strong className="block text-center text-[30px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-pink-500 py-10">
             Want us to email you with the latest news?
           </strong>
 
@@ -23,7 +23,7 @@ const Footer = () => {
                 placeholder="example@gmail.com"
               />
 
-              <button className="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700">
+              <button className="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-orange-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-orange-600">
                 Subscribe
               </button>
             </div>

@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="bg-[#03001417] backdrop-blur-md shadow-lg shadow-[#2A0E61]/50 fixed w-full z-50 top-0 px-10">
       <div className="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-4">
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center  space-x-3">
           <a href="#Home">
             <Image
               src="/logo.png"
@@ -55,14 +56,14 @@ const Navbar = () => {
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } w-full md:flex md:items-center md:w-auto`}
+          } w-full md:flex md:items-center md:w-auto `}
           id="navbar-sticky"
         >
-          <ul className="flex flex-col p-4 mt-4 border border-[#7042f861] bg-[#0300145e] rounded-md md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
+          <ul className="flex flex-col p-4 mt-4  border border-orange-600 bg-[#0300145e] rounded-md md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
             <li>
               <a
                 href="#Home"
-                className="block py-2 px-3 rounded hover:bg-[#7042f861] text-yellow-400 font-bold"
+                className="block py-2 px-3 rounded hover:bg-orange-600 text-yellow-400 font-bold"
               >
                 Home
               </a>
@@ -70,7 +71,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#Services"
-                className="block py-2 px-3 rounded hover:bg-[#7042f861] text-gray-200"
+                className="block py-2 px-3 rounded hover:bg-orange-600 text-gray-200"
               >
                 Services
               </a>
@@ -78,7 +79,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#testimonial"
-                className="block py-2 px-3 rounded hover:bg-[#7042f861] text-gray-200"
+                className="block py-2 px-3 rounded hover:bg-orange-600 text-gray-200"
               >
                 Testimonial
               </a>
@@ -86,7 +87,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#projects"
-                className="block py-2 px-3 rounded hover:bg-[#7042f861] text-gray-200"
+                className="block py-2 px-3 rounded hover:bg-orange-600 text-gray-200"
               >
                 Projects
               </a>
@@ -94,12 +95,21 @@ const Navbar = () => {
             <li>
               <a
                 href="#aboutus"
-                className="block py-2 px-3 rounded hover:bg-[#7042f861] text-gray-200"
+                className="block py-2 px-3 rounded hover:bg-orange-600 text-gray-200"
               >
                 About Us
               </a>
             </li>
           </ul>
+        </div>
+        <div className="hidden md:flex">
+          <Link
+            href="https://cal.com/mralamin/30min"
+            target=  "_blank"
+            className="inline-flex h-12 items-center justify-center rounded-xl border border-orange-600 bg-orange-600 px-6 font-medium text-white hover:bg-gray-800"
+          >
+            Contact
+          </Link>
         </div>
       </div>
     </nav>

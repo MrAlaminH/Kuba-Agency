@@ -7,14 +7,6 @@ const Hero = () => {
       <div className="relative z-10">
         <HeroContent />
       </div>
-      {/* <video
-        autoPlay
-        muted
-        loop
-        className="absolute w-full h-full object-cover inset-0 z-[-3]"
-      >
-        <source src="/blackhole.webm" type="video/webm" />
-      </video> */}
     </div>
   );
 };

@@ -1,11 +1,14 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
+import { CardHoverEffectDemo } from "./snippets/card-hover-effect-snippet2";
+import Image from "next/image";
+import Marquee from "react-fast-marquee";
 
 const AboutUs = () => {
   return (
     <section
       id="aboutus"
-      className="bg-transprent text-white py-16 px-8 md:px-20"
+      className="bg-transprent text-white py-16 px-8 md:px-20 "
     >
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full lg:w-1/2 flex flex-col justify-center">
@@ -27,7 +30,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 flex flex-col justify-center">
-          <h2 className="text-3xl font-bold mb-4 text-yellow-400">
+          <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">
             Professional Fullstack Marketing Agency to provide solutions
           </h2>
           <p className="mb-4">
@@ -58,9 +61,9 @@ const AboutUs = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="text-green-400 mr-2"
             >
               <polyline points="20 6 9 17 4 12"></polyline>
@@ -75,9 +78,9 @@ const AboutUs = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="text-green-400 mr-2"
             >
               <polyline points="20 6 9 17 4 12"></polyline>
@@ -92,9 +95,9 @@ const AboutUs = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="text-green-400 mr-2"
             >
               <polyline points="20 6 9 17 4 12"></polyline>
@@ -102,151 +105,111 @@ const AboutUs = () => {
             <span>Web Design &amp; Development</span>
           </div>
           <div className="flex justify-between items-center">
-            <div className="text-yellow-400 text-6xl font-bold">230+</div>
+            <div className="text-orange-600 text-6xl font-bold">230+</div>
             <div>
               <a
                 href="https://cal.com/mralamin/30min"
                 target="_blank"
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-blue-400/90 h-10 px-4 py-2 bg-yellow-400 text-black"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-orange-600 hover:bg-gray-800 h-10 px-4 py-2 bg-orange-600 text-white"
               >
                 Book A Call
               </a>
-
-              {/* <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-blue-400/90 h-10 px-4 py-2 bg-yellow-400 text-black">
-                Book A Call
-              </button> */}
             </div>
           </div>
         </div>
       </div>
       <div className="bg-transprent">
-        <section
-          id="features"
-          className="relative block px-6 py-10 md:py-20 md:px-10 "
-        >
-          <div className="relative mx-auto max-w-5xl text-center">
-            <h2 className="text-[40px] font-semibold text-transparent text-yellow-500 py-10">
-              Why Choose Us!
+        <div className="max-w-5xl mx-auto py-20">
+          <div
+            className="font-bold text-4xl pb-5 md:text-5xl text-center
+//          bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-pink-500 bg-opacity-50 mt-20"
+          >
+            Why Choose Us!
+          </div>
+          <p
+            className="mt-4 text-lg font-normal
+          text-neutral-300 max-w-lg 
+          text-center mx-auto"
+          >
+            We are innovative and passionate about the work we do. We listen to
+            our clients objectives and aspirations and therefore provide
+            customize solutions. We always come up with new ways to enrich your
+            revenue to greater heights.
+          </p>
+
+          <CardHoverEffectDemo />
+
+          {/* Companys who worked with us */}
+
+          <div className="max-w-7xl mx-auto flex flex-wrap justify-around gap-8 py-12 px-4">
+            <h2 className="w-full mb-4 -mt-4 text-center text-4xl  font-semibold bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-pink-500 tracking-wider">
+              Trusted by the best
             </h2>
-            <p className="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-white">
-              We are innovative and passionate about the work we do. We listen
-              to our clients objectives and aspirations and therefore provide
-              customize solutions. We always come up with new ways to enrich
-              your revenue to greater heights.
+            <p className="text-center text-white ">
+              From small businesses to large corporations,
+              <br /> we have helped many brands elevate their business.
             </p>
           </div>
 
-          <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
-            {/* First Feature */}
-            <div className="rounded-md border border-neutral-800 bg-slate-800 p-8 text-center shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40">
-              <div
-                className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
-                style={{
-                  backgroundImage:
-                    "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
-                  borderColor: "rgb(93, 79, 240)",
-                }}
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-color-swatch"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M19 3h-4a2 2 0 0 0 -2 2v12a4 4 0 0 0 8 0v-12a2 2 0 0 0 -2 -2"></path>
-                  <path d="M13 7.35l-2 -2a2 2 0 0 0 -2.828 0l-2.828 2.828a2 2 0 0 0 0 2.828l9 9"></path>
-                  <path d="M7.3 13h-2.3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h12"></path>
-                  <line x1="17" y1="17" x2="17" y2="17.01"></line>
-                </svg>
-              </div>
-              <h3 className="mt-6 text-white">Commitment To Quality </h3>
-              <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-white">
-                We are committed to quality and concrete actions. That means we
-                always deliver solutions in a professional and practical way.
-              </p>
+          <Marquee
+            direction="left"
+            speed={50}
+            loop={0}
+            pauseOnClick={true}
+            // gradient={true}
+            // gradientColor="$fff"
+            // gradientWidth={100}
+            autoFill={true}
+          >
+            <div>
+              <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none anima mask-section">
+                <li>
+                  <Image
+                    src="/carolo.png"
+                    alt="logo"
+                    height={120}
+                    width={120}
+                  />
+                </li>
+                <li>
+                  <Image src="/masum.png" alt="logo" height={120} width={120} />
+                </li>
+                <li>
+                  <Image src="/nazny.png" alt="logo" height={120} width={120} />
+                </li>
+              </ul>
             </div>
-
-            {/* Second Feature */}
-            <div className="rounded-md border border-neutral-800 bg-slate-800 p-8 text-center shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40">
-              <div
-                className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
-                style={{
-                  backgroundImage:
-                    "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
-                  borderColor: "rgb(93, 79, 240)",
-                }}
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-bolt"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <polyline points="13 3 13 10 19 10 11 21 11 14 5 14 13 3"></polyline>
-                </svg>
-              </div>
-              <h3 className="mt-6 text-white"> CREATIVE SOLUTIONS</h3>
-              <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-white">
-                Our goal is to inspire you with new insights and creative
-                solutions. where your business stands out and makes a lasting
-                impact
-              </p>
+          </Marquee>
+          <Marquee
+            direction="right"
+            speed={50}
+            loop={0}
+            pauseOnClick={true}
+            // gradient={true}
+            // gradientColor="$fff"
+            // gradientWidth={200}
+            autoFill={true}
+          >
+            <div>
+              <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none anima mask-section">
+                <li>
+                  <Image src="/nazny.png" alt="logo" height={120} width={120} />
+                </li>
+                <li>
+                  <Image
+                    src="/carolo.png"
+                    alt="logo"
+                    height={120}
+                    width={120}
+                  />
+                </li>
+                <li>
+                  <Image src="/masum.png" alt="logo" height={120} width={120} />
+                </li>
+              </ul>
             </div>
-
-            {/* Third Feature */}
-            <div className="rounded-md border border-neutral-800 bg-slate-800 p-8 text-center shadow-xl transition hover:border-pink-500/40 hover:shadow-pink-500/40">
-              <div
-                className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
-                style={{
-                  backgroundImage:
-                    "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
-                  borderColor: "rgb(93, 79, 240)",
-                }}
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-tools"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4"></path>
-                  <line x1="14.5" y1="5.5" x2="18.5" y2="9.5"></line>
-                  <polyline points="12 8 7 3 3 7 8 12"></polyline>
-                  <line x1="7" y1="8" x2="5.5" y2="9.5"></line>
-                  <polyline points="16 12 21 17 17 21 12 16"></polyline>
-                  <line x1="16" y1="17" x2="14.5" y2="18.5"></line>
-                </svg>
-              </div>
-              <h3 className="mt-6 text-white">Quick Support</h3>
-              <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-white">
-                we are committed to your success 24/7. Our dedicated support
-                team is always ready to assist you, ensuring seamless operations
-                and peace of mind.
-              </p>
-            </div>
-          </div>
-        </section>
+          </Marquee>
+        </div>
       </div>
     </section>
   );

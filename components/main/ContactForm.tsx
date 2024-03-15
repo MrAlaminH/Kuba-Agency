@@ -7,7 +7,7 @@ const ContactForm: React.FC = () => {
       <div className="container mx-auto">
         <div className="max-w-2xl mx-auto my-10 bg-transparent p-5 rounded-md shadow-sm">
           <div className="text-center">
-            <p className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10 ">
+            <p className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-pink-500 py-10 ">
               Fill up the form below to send us a message.
             </p>
           </div>
@@ -18,7 +18,7 @@ const ContactForm: React.FC = () => {
               <input type="hidden" name="redirect" value="https://web3forms.com/success" />
               <input type="checkbox" name="botcheck" style={{ display: 'none' }} />
               <div className="mb-6">
-                <label htmlFor="name" className="font-bold block mb-2 text-sm text-cyan-600 dark:text-cyan-400">Full Name</label>
+                <label htmlFor="name" className="font-bold block mb-2 text-sm text-orange-600 dark:text-orange-600">Full Name</label>
                 <input
                   type="text"
                   name="name"
@@ -29,7 +29,7 @@ const ContactForm: React.FC = () => {
                 />
               </div>
               <div className="mb-6">
-                <label htmlFor="email" className="font-bold block mb-2 text-sm text-cyan-600 dark:text-cyan-400">Email Address</label>
+                <label htmlFor="email" className="font-bold block mb-2 text-sm text-orange-600 dark:text-orange-600">Email Address</label>
                 <input
                   type="email"
                   name="email"
@@ -40,7 +40,7 @@ const ContactForm: React.FC = () => {
                 />
               </div>
               <div className="mb-6">
-                <label htmlFor="phone" className="font-bold text-sm text-cyan-600 dark:text-cyan-400">Phone Number</label>
+                <label htmlFor="phone" className="font-bold text-sm text-orange-600 dark:text-orange-600">Phone Number</label>
                 <input
                   type="text"
                   name="phone"
@@ -51,7 +51,7 @@ const ContactForm: React.FC = () => {
                 />
               </div>
               <div className="mb-6">
-                <label htmlFor="message" className="font-bold block mb-2 text-sm text-cyan-600 dark:text-cyan-400">Your Message</label>
+                <label htmlFor="message" className="font-bold block mb-2 text-sm text-orange-600 dark:text-orange-600">Your Message</label>
                 <textarea
                   rows={5}
                   name="message"
@@ -64,7 +64,7 @@ const ContactForm: React.FC = () => {
               <div className="mb-6">
                 <button
                   type="submit"
-                  className="w-full px-3 py-4 text-black font-bold transition ease-in-out delay-150 bg-indigo-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-500 duration-300 focus:outline-none"
+                  className="w-full px-3 py-4 text-white font-bold transition ease-in-out delay-150 border border-orange-600 bg-orange-600 hover:-translate-y-1 hover:scale-110 hover:bg-gray-800 duration-300 focus:outline-none"
                 >
                   Send Message
                 </button>

@@ -18,7 +18,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
   return (
     <details className="group mb-4" open={isOpen}>
       <summary
-        className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-indigo-500 p-4 text-gray-900 focus:outline-none"
+        className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-orange-400 p-4 text-gray-900 focus:outline-none"
         onClick={toggleOpen}
       >
         <h3 className="font-medium text-lg">{question}</h3>
@@ -35,7 +35,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
       </summary>
 
       <div
-        className={`mt-4 px-4 leading-relaxed text-cyan-400 transition-max-height ${
+        className={`mt-4 px-4 leading-relaxed text-white transition-max-height ${
           isOpen ? "max-h-96" : "max-h-0 overflow-hidden"
         }`}
       >
@@ -78,7 +78,7 @@ const FAQSection = () => {
   return (
     <section id="FAQSection" className=" py-8">
       <div className="mx-auto max-w-lg text-center">
-        <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
+        <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-pink-500 py-10">
           Frequently Asked Questions
         </h2>
       </div>

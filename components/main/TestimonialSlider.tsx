@@ -13,7 +13,7 @@ const TestimonialSlider = () => {
               <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
               <h1 className="Welcome-text text-[13px]">Words from Others</h1>
             </div>
-            <h1 className="mb-5 text-3xl font-semibold text-yellow-400 text-center md:text-center md:text-5xl">
+            <h1 className="mb-5 text-5xl font-semibold bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent  text-center md:text-center md:text-5xl">
               It&apos;s not just us.
             </h1>
             <p className="text-xl text-gray-100 text-center md:text-center md:text-2xl">
@@ -26,12 +26,12 @@ const TestimonialSlider = () => {
           <ul className="space-y-8">
             <li className="text-sm leading-6">
               <div className="relative group">
-                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-amber-500 to-pink-500 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                 <a
                   href="https://twitter.com/MdReanAhmed1"
                   className="cursor-pointer"
                 >
-                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-black ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       {" "}
                       <img
@@ -57,12 +57,12 @@ const TestimonialSlider = () => {
             </li>
             <li className="text-sm leading-6">
               <div className="relative group">
-                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-amber-500 to-pink-500 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                 <a
                   href="https://twitter.com/Bullback2025"
                   className="cursor-pointer"
                 >
-                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-black ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
                         src="https://pbs.twimg.com/profile_images/1721809225423454208/A8u6cEtT_400x400.jpg"
@@ -85,12 +85,12 @@ const TestimonialSlider = () => {
             </li>
             <li className="text-sm leading-6">
               <div className="relative group">
-                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-amber-500 to-pink-500 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                 <a
                   href=""
                   className="cursor-pointer"
                 >
-                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-black ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
                         src="https://pbs.twimg.com/profile_images/1754745467387232256/MsY_M5wL_400x400.jpg"
@@ -115,12 +115,12 @@ const TestimonialSlider = () => {
             </li>
             <li className="text-sm leading-6">
               <div className="relative group">
-                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-amber-500 to-pink-500 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                 <a
                   href=""
                   className="cursor-pointer"
                 >
-                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-black ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
                         src="https://pbs.twimg.com/profile_images/1670905743619268609/pYItlWat_400x400.jpg"
@@ -146,9 +146,9 @@ const TestimonialSlider = () => {
           <ul className="hidden space-y-8 sm:block">
             <li className="text-sm leading-6">
               <div className="relative group">
-                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-amber-500 to-pink-500 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                 <a href="" className="cursor-pointer">
-                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-black ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
                         src="https://pbs.twimg.com/profile_images/1743430067978473472/oDcjillI_400x400.jpg"
@@ -171,12 +171,12 @@ const TestimonialSlider = () => {
             </li>
             <li className="text-sm leading-6">
               <div className="relative group">
-                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-amber-500 to-pink-500 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                 <a
                   href=""
                   className="cursor-pointer"
                 >
-                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-black ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
                         src="https://pbs.twimg.com/profile_images/1733406256105177088/VboDuWfl_400x400.jpg"
@@ -199,9 +199,9 @@ const TestimonialSlider = () => {
             </li>
             <li className="text-sm leading-6">
               <div className="relative group">
-                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-amber-500 to-pink-500 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                 <a href="" className="cursor-pointer">
-                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-black ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
                         src="https://pbs.twimg.com/profile_images/1375285353146327052/y6jeByyD_400x400.jpg"
@@ -224,12 +224,12 @@ const TestimonialSlider = () => {
             </li>
             <li className="text-sm leading-6">
               <div className="relative group">
-                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-amber-500 to-pink-500 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                 <a
                   href=""
                   className="cursor-pointer"
                 >
-                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-black ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
                         src="https://pbs.twimg.com/profile_images/1724687865471455232/-rc2ShfE_400x400.jpg"
@@ -255,12 +255,12 @@ const TestimonialSlider = () => {
           <ul className="hidden space-y-8 lg:block">
             <li className="text-sm leading-6">
               <div className="relative group">
-                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-amber-500 to-pink-500 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                 <a
                   href=""
                   className="cursor-pointer"
                 >
-                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-black ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
                         src="https://pbs.twimg.com/profile_images/1581916687628087296/YFTwuoXE_400x400.jpg"
@@ -285,12 +285,12 @@ const TestimonialSlider = () => {
             </li>
             <li className="text-sm leading-6">
               <div className="relative group">
-                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-amber-500 to-pink-500 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                 <a
                   href=""
                   className="cursor-pointer"
                 >
-                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-black ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
                         src="https://pbs.twimg.com/profile_images/516916920482672641/3jCeLgFb_400x400.jpeg"
@@ -313,12 +313,12 @@ const TestimonialSlider = () => {
             </li>
             <li className="text-sm leading-6">
               <div className="relative group">
-                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-amber-500 to-pink-500 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                 <a
                   href=""
                   className="cursor-pointer"
                 >
-                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-black ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
                         src="https://pbs.twimg.com/profile_images/1250275834444701704/9L7QwQCq_400x400.jpg"
@@ -343,12 +343,12 @@ const TestimonialSlider = () => {
             </li>
             <li className="text-sm leading-6">
               <div className="relative group">
-                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-amber-500 to-pink-500 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                 <a
                   href=""
                   className="cursor-pointer"
                 >
-                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-black ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
                         src="https://pbs.twimg.com/profile_images/1259558245/vala_300dpi_400x400.jpg"
