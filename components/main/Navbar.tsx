@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#03001417] backdrop-blur-md shadow-lg shadow-[#2A0E61]/50 fixed w-full z-50 top-0 px-10">
+    <nav className="bg-[#03001417] backdrop-blur-md shadow-lg shadow-orange-600/50 fixed w-full z-50 top-0 px-10">
       <div className="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-4">
         <div className="flex items-center  space-x-3">
           <a href="#Home">
@@ -26,7 +26,7 @@ const Navbar = () => {
           </a>
 
           <span className="self-center text-xl font-bold text-white">
-          Sodality
+            Sodality
           </span>
         </div>
 
@@ -59,7 +59,7 @@ const Navbar = () => {
           } w-full md:flex md:items-center md:w-auto `}
           id="navbar-sticky"
         >
-          <ul className="flex flex-col p-4 mt-4  border border-orange-600 bg-[#0300145e] rounded-md md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
+          <ul className="flex flex-col p-4 mt-4  border border-orange-600 rounded-md md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
             <li>
               <a
                 href="#Home"
@@ -105,7 +105,7 @@ const Navbar = () => {
         <div className="hidden md:flex">
           <Link
             href="https://cal.com/mralamin/30min"
-            target=  "_blank"
+            target="_blank"
             className="inline-flex h-12 items-center justify-center rounded-xl border border-orange-600 bg-orange-600 px-6 font-medium text-white hover:bg-gray-800"
           >
             Contact
