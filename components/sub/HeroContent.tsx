@@ -7,9 +7,14 @@ import {
   slideInFromTop,
   slideInFromBottom
 } from "@/utils/motion";
-
 import SliderOne from "@/components/main/slider";
 import { SparklesIcon } from "@heroicons/react/24/solid";
+
+const glowingShadow = {
+  boxShadow: "0 0 30px 0 rgba(255, 165, 0, 0.8)", // Increase opacity for more glow
+  transition: "box-shadow 0.5s ease-in-out", // Adjust the transition duration and easing function as needed
+  animation: "glow 2s infinite alternate", // Add a pulsating animation
+};
 
 const HeroContent = () => {
   return (
@@ -35,6 +40,7 @@ const HeroContent = () => {
         className=" dark:bg-orange-600 rounded-xl border border-orange-600 text-white dark:text-white font-medium px-4 py-3 mt-6 sm:mt-8 hover:bg-gray-800 transition"
         href="https://cal.com/mralamin/30min"
         target="_blank"
+        style={glowingShadow}
       >
         Book A Call
       </motion.a>

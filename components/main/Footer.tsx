@@ -33,9 +33,7 @@ const Footer = () => {
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
           <div className="mx-auto max-w-sm lg:max-w-none">
             <p className="mt-4 text-center text-white lg:text-left lg:text-lg">
-              We craft resonant narratives, fusing innovation with strategy to
-              amplify your brands voice. Fueled by passion, our campaigns
-              captivate, transforming curiosity into active engagement.
+            SODALITY: Solutions Oriented Digital Agency Leveraging Innovative TechnologyDescription: Sodality is a forward-thinking digital agency that specializes in providing innovative solutions for businesses. Leveraging cutting-edge technology, our team develops customized web solutions and marketing strategies to help clients achieve their digital objectives.
             </p>
 
             <div className="mt-6 flex justify-center gap-4 lg:justify-start">
@@ -241,10 +239,11 @@ const Footer = () => {
                 <li>
                   <a
                     className="text-white transition hover:text-white"
-                    href="/"
+                    href="https://cal.com/mralamin/30min"
+                    target="_blank"
                   >
                     {" "}
-                    Live Chat{" "}
+                    Book a Call{" "}
                   </a>
                 </li>
               </ul>

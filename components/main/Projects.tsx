@@ -10,7 +10,7 @@ const Projects = () => {
 
   const projectsData = [
     {
-      src: "/slider4.png",
+      src: "/slider5.png",
       title: "Gym Website Showcase",
       description:
         "Check out this sleek gym website example designed to inspire fitness enthusiasts. It features modern design elements and interactive features to engage users and promote a healthy lifestyle.",
@@ -32,39 +32,47 @@ const Projects = () => {
     },
     {
       src: "/slider6.png",
-      title: "Car Detailing Website Demo",
+      title: "Car Detailing Website",
       description:
         "Experience this professional car detailing website example, featuring high-resolution images and informative content to showcase the quality of services offered. It's designed to attract car enthusiasts and detail-oriented customers.",
       categories: ["Web Development"],
     },
     {
-      src: "/work1.png",
-      title: "Travel Website Preview",
+      src: "/slider7.png",
+      title: "Consultancy Website",
       description:
         "Embark on a journey with this captivating travel website example, offering enticing destinations and travel tips. It's designed to inspire wanderlust and facilitate seamless trip planning for adventurers.",
       categories: ["Web Development"],
     },
-    {
-      src: "/slider3.png",
-      title: "Luxury Real Estate Website Demo",
-      description:
-        "Step into the world of luxury with this real estate website example, featuring exquisite properties and immersive virtual tours. It caters to high-end clientele seeking premium real estate options.",
-      categories: ["Web Development"],
-    },
-    {
-      src: "/slider5.png",
-      title: "Adventure Travel Website Preview",
-      description:
-        "Get ready for an adventure with this exciting travel website example, showcasing adrenaline-pumping activities and off-the-beaten-path destinations. It's designed for thrill-seekers and explorers.",
-      categories: ["Web Development"],
-    },
-    {
-      src: "/work2.png",
-      title: "Crypto Investment Website Preview",
-      description:
-        "Explore potential opportunities in the world of cryptocurrency with this informative investment website example. It provides valuable insights and analysis to help users make informed investment decisions.",
-      categories: ["Web Development"],
-    }
+    
+{
+  src: "/slider9.png",
+  title: "Restaurant Website",
+  description:
+  "Indulge in a culinary journey with this enticing restaurant website example, showcasing delectable cuisines and elegant ambiance. It's designed to tantalize taste buds and create unforgettable dining experiences.",
+  categories: ["Web Development"],
+  },
+  {
+  src: "/slider3.png",
+  title: "Adventure Travel Website ",
+  description:
+  "Embark on a thrilling escapade with this dynamic adventure travel website example, offering exhilarating experiences and breathtaking destinations. It's tailored for adventurers seeking adrenaline-fueled excitement.",
+  categories: ["Web Development"],
+  },
+  {
+  src: "/slider4.png",
+  title: "Dental Website",
+  description:
+  "Brighten your smile with this comprehensive dental website example, providing expert dental care and personalized treatment plans. It's dedicated to enhancing oral health and restoring confidence.",
+  categories: ["Web Development"],
+  },
+  {
+  src: "/slider8.png",
+  title: "Cleaning Company Website",
+  description:
+  "Experience cleanliness like never before with this professional cleaning company website example, offering top-notch services and meticulous attention to detail. It's your partner in maintaining pristine spaces.",
+  categories: ["Web Development"],
+  }
     
     
   // Add more projects with categories as needed

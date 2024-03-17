@@ -2,7 +2,7 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 const ContactForm: React.FC = () => {
   return (
-    <div className="flex items-center min-h-screen bg-transparent">
+    <div id="ContactForm" className="flex items-center min-h-screen bg-transparent">
       <div className="container mx-auto">
         <div className="max-w-2xl mx-auto my-10 bg-transparent p-5 rounded-md shadow-sm">
           <div className="text-center">

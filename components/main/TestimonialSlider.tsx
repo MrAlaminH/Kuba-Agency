@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const TestimonialSlider = () => {
   return (
-    <section id="testimonial" className="py-20 bg-tranasprent">
+    <section id="testimonial" className="bg-tranasprent">
       <div className="max-w-6xl mx-8 md:mx-10 lg:mx-20 xl:mx-auto">
         <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
           <div className="mb-12 space-y-5 md:mb-16 md:text-center">
