@@ -8,8 +8,18 @@ import Footer from "@/components/main/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Welcome to Sodality",
-  description: "This is your Fullstack Marketing Agency",
+  metadataBase: new URL('https://www.sodality.xyz/'),
+  title: {
+    default: "Welcome to Sodality",
+    template: "We're your secret weapon in the digital arena",
+  },
+  description: "We're your secret weapon in the digital arena",
+  twitter: {
+    card: "summary_large_image",
+  },
+  openGraph: {
+    images: '/opengraph-image.png',
+  },
 };
 
 export default function RootLayout({
@@ -30,3 +40,4 @@ export default function RootLayout({
     </html>
   );
 }
+
