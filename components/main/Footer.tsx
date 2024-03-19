@@ -88,7 +88,7 @@ const Footer = () => {
 
               <a
                 className="text-white transition hover:text-orange-600"
-                href=""
+                href="https://twitter.com/Sodality_Labs"
                 target="_blank"
                 rel="noreferrer"
               >
