@@ -63,7 +63,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#Home"
-                className="block py-2 px-3 rounded hover:bg-orange-600 text-yellow-400 font-bold"
+                className="block py-2 px-3 rounded hover:bg-orange-600 text-yellow-400 font-bold transition duration-500 transform hover:-translate-y-2"
               >
                 Home
               </a>
@@ -71,7 +71,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#Services"
-                className="block py-2 px-3 rounded hover:bg-orange-600 text-gray-200"
+                className="block py-2 px-3 rounded hover:bg-orange-600 text-gray-200 transition duration-500 transform hover:-translate-y-2"
               >
                 Services
               </a>
@@ -79,7 +79,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#testimonial"
-                className="block py-2 px-3 rounded hover:bg-orange-600 text-gray-200"
+                className="block py-2 px-3 rounded hover:bg-orange-600 text-gray-200 transition duration-500 transform hover:-translate-y-2"
               >
                 Testimonial
               </a>
@@ -87,7 +87,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#projects"
-                className="block py-2 px-3 rounded hover:bg-orange-600 text-gray-200"
+                className="block py-2 px-3 rounded hover:bg-orange-600 text-gray-200 transition duration-500 transform hover:-translate-y-2"
               >
                 Projects
               </a>
@@ -95,7 +95,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#aboutus"
-                className="block py-2 px-3 rounded hover:bg-orange-600 text-gray-200"
+                className="block py-2 px-3 rounded hover:bg-orange-600 text-gray-200 transition duration-500 transform hover:-translate-y-2"
               >
                 About Us
               </a>
@@ -103,18 +103,17 @@ const Navbar = () => {
             <li>
               <a
                 href="#ContactForm"
-                className="md:hidden block py-2 px-3 rounded hover:bg-orange-600 text-gray-200"
+                className="md:hidden block py-2 px-3 rounded hover:bg-orange-600 text-gray-200 transition duration-500 transform hover:-translate-y-2"
               >
                 Contact Us
               </a>
             </li>
-            
           </ul>
         </div>
         <div className="hidden md:flex ">
           <Link
             href="#ContactForm"
-            className=" custom-hide inline-flex h-12 items-center justify-center rounded-xl border border-orange-600 bg-orange-600 px-6 font-medium text-white hover:bg-gray-800"
+            className="transition duration-500 transform hover:-translate-y-2 custom-hide inline-flex h-12 items-center justify-center rounded-xl border border-orange-600 bg-orange-600 px-6 font-medium text-white hover:bg-gray-800"
           >
             Contact Us
           </Link>

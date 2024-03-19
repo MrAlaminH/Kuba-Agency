@@ -33,13 +33,18 @@ const Footer = () => {
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
           <div className="mx-auto max-w-sm lg:max-w-none">
             <p className="mt-4 text-center text-white lg:text-left lg:text-lg">
-            SODALITY: Solutions Oriented Digital Agency Leveraging Innovative TechnologyDescription: Sodality is a forward-thinking digital agency that specializes in providing innovative solutions for businesses. Leveraging cutting-edge technology, our team develops customized web solutions and marketing strategies to help clients achieve their digital objectives.
+              SODALITY: Solutions Oriented Digital Agency Leveraging Innovative
+              TechnologyDescription: Sodality is a forward-thinking digital
+              agency that specializes in providing innovative solutions for
+              businesses. Leveraging cutting-edge technology, our team develops
+              customized web solutions and marketing strategies to help clients
+              achieve their digital objectives.
             </p>
 
             <div className="mt-6 flex justify-center gap-4 lg:justify-start">
               <a
-                className="text-white transition hover:text-white"
-                href=""
+                className="text-white transition hover:text-orange-600"
+                href="https://www.facebook.com/profile.php?id=61557240069398"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -60,8 +65,8 @@ const Footer = () => {
               </a>
 
               <a
-                className="text-white transition hover:text-white"
-                href=""
+                className="text-white transition hover:text-orange-600"
+                href="https://www.instagram.com/sodality_labs/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -82,7 +87,7 @@ const Footer = () => {
               </a>
 
               <a
-                className="text-white transition hover:text-white"
+                className="text-white transition hover:text-orange-600"
                 href=""
                 target="_blank"
                 rel="noreferrer"
@@ -99,24 +104,24 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                className="text-white transition hover:text-white"
-                href=""
+                className="text-white transition hover:text-orange-600"
+                href="https://www.linkedin.com/company/sodality-labs"
                 target="_blank"
                 rel="noreferrer"
               >
-                <span className="sr-only"> Dribbble </span>
+                <span className="sr-only">LinkedIn</span>
 
                 <svg
-                  className="h-6 w-6"
-                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
-                  aria-hidden="true"
+                  fill="currentColor"
+                  className="w-6 h-6"
                 >
                   <path
                     fillRule="evenodd"
-                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                    d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
                     clipRule="evenodd"
-                  />
+                  ></path>
                 </svg>
               </a>
             </div>
@@ -124,12 +129,15 @@ const Footer = () => {
 
           <div className="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left">
             <div>
-              <strong className="font-medium text-white underline underline-offset-8"> Services </strong>
+              <strong className="font-medium text-white underline underline-offset-8">
+                {" "}
+                Services{" "}
+              </strong>
 
               <ul className="mt-6 space-y-1">
                 <li>
                   <a
-                    className="text-white transition hover:text-white"
+                    className="text-white transition hover:text-orange-600"
                     href="#Services"
                   >
                     {" "}
@@ -139,7 +147,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-white transition hover:text-white"
+                    className="text-white transition hover:text-orange-600"
                     href="#Services"
                   >
                     Graphic Design
@@ -148,7 +156,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-white transition hover:text-white"
+                    className="text-white transition hover:text-orange-600"
                     href="#Services"
                   >
                     Video Editing
@@ -157,7 +165,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-white transition hover:text-white"
+                    className="text-white transition hover:text-orange-600"
                     href="#Services"
                   >
                     Web Development
@@ -167,12 +175,15 @@ const Footer = () => {
             </div>
 
             <div>
-              <strong className="font-medium text-white underline underline-offset-8"> About </strong>
+              <strong className="font-medium text-white underline underline-offset-8">
+                {" "}
+                About{" "}
+              </strong>
 
               <ul className="mt-6 space-y-1">
                 <li>
                   <a
-                    className="text-white transition hover:text-white"
+                    className="text-white transition hover:text-orange-600"
                     href="#aboutus"
                   >
                     {" "}
@@ -182,7 +193,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-white transition hover:text-white"
+                    className="text-white transition hover:text-orange-600"
                     href="/"
                   >
                     {" "}
@@ -192,7 +203,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-white transition hover:text-white"
+                    className="text-white transition hover:text-orange-600"
                     href="/"
                   >
                     {" "}
@@ -202,7 +213,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-white transition hover:text-white"
+                    className="text-white transition hover:text-orange-600"
                     href="#aboutus"
                   >
                     {" "}
@@ -213,12 +224,15 @@ const Footer = () => {
             </div>
 
             <div>
-              <strong className="font-medium text-white underline underline-offset-8"> Support </strong>
+              <strong className="font-medium text-white underline underline-offset-8">
+                {" "}
+                Support{" "}
+              </strong>
 
               <ul className="mt-6 space-y-1">
                 <li>
                   <a
-                    className="text-white transition hover:text-white"
+                    className="text-white transition hover:text-orange-600"
                     href="#FAQSection"
                   >
                     {" "}
@@ -228,7 +242,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-white transition hover:text-white"
+                    className="text-white transition hover:text-orange-600"
                     href="#form"
                   >
                     {" "}
@@ -238,7 +252,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-white transition hover:text-white"
+                    className="text-white transition hover:text-orange-600"
                     href="https://cal.com/mralamin/30min"
                     target="_blank"
                   >
@@ -255,12 +269,11 @@ const Footer = () => {
           <p className="text-center text-xs/relaxed text-gray-500">
             © Sodality Agency 2024. All rights reserved.
             <br />
-            Created By 
+            Created By
             <a
               href=""
-              className="text-white underline transition hover:text-white"
+              className="text-white underline transition hover:text-orange-600"
             >
-              
               MrAlaminH
             </a>
           </p>
