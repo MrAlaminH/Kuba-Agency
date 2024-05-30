@@ -20,8 +20,7 @@ const Services = () => {
           text-neutral-300 max-w-lg 
           text-center mx-auto"
       >
-        From website design to social media management, We offer a wide range of
-        services to help you grow your business.
+        From website design to social media management, We offer a wide range of services to help you grow your business.
       </p>
 
       <CardHoverEffectDemo />

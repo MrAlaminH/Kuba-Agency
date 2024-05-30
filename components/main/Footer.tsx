@@ -34,7 +34,7 @@ const Footer = () => {
           <div className="mx-auto max-w-sm lg:max-w-none">
             <p className="mt-4 text-center text-white lg:text-left lg:text-lg">
               SODALITY: Solutions Oriented Digital Agency Leveraging Innovative
-              TechnologyDescription: Sodality is a forward-thinking digital
+              Technology. Sodality is a forward-thinking digital
               agency that specializes in providing innovative solutions for
               businesses. Leveraging cutting-edge technology, our team develops
               customized web solutions and marketing strategies to help clients

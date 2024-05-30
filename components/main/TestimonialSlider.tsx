@@ -6,12 +6,12 @@ import Image from "next/image";
 const TestimonialSlider = () => {
   return (
     <section id="testimonial" className="bg-tranasprent">
-      <div className="max-w-6xl mx-8 md:mx-10 lg:mx-20 xl:mx-auto">
+      <div className="max-w-6xl mx-8 md:mx-10 lg:mx-20 xl:mx-auto py-20">
         <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
-          <div className="mb-12 space-y-5 md:mb-16 md:text-center">
+          <div className="mb-12 md:mb-16 md:text-center">
             <div className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] text-center mx-auto ">
               <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-              <h1 className="Welcome-text text-[13px]">Words from Others</h1>
+              <h1 className="Welcome-text text-[13px] ">Words from Others</h1>
             </div>
             <h1 className="mb-5 text-5xl font-semibold bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent  text-center md:text-center md:text-5xl">
               It&apos;s not just us.
@@ -151,7 +151,7 @@ const TestimonialSlider = () => {
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-black ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
-                        src="https://pbs.twimg.com/profile_images/1743430067978473472/oDcjillI_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1669663135417110528/p8fRLHNR_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Parag Agrawal"
                       />
@@ -263,7 +263,7 @@ const TestimonialSlider = () => {
                   <div className="relative p-6 space-y-6 leading-none rounded-lg bg-black ring-1 ring-gray-900/5">
                     <div className="flex items-center space-x-4">
                       <img
-                        src="https://pbs.twimg.com/profile_images/1581916687628087296/YFTwuoXE_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1689012008472195072/lSKb0P7X_400x400.jpg"
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Satya Nadella"
                       />
