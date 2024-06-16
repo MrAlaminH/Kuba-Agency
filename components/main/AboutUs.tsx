@@ -20,7 +20,7 @@ const AboutUs = () => {
               muted
               autoPlay
               controls
-              src="/aboutvideo.mp4"
+              src="https://blue-official-newt-770.mypinata.cloud/ipfs/QmTcYu6JBKtxJeZMgE2eEc7Ts9cwC1DcpPfLLwtRhZgM2K/aboutvideo.mp4"
               preload="auto"
             />
           </div>

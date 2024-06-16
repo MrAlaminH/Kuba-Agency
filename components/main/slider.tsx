@@ -34,7 +34,7 @@ const SliderOne = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/slider1.png"
+              src="https://blue-official-newt-770.mypinata.cloud/ipfs/QmZwF1cKsFNe1x8p86qAjpgwdogPT3RYp1dngCj7y6Xq99/slider1.png"
               alt="image"
               width={500}
               height={500}
@@ -49,7 +49,7 @@ const SliderOne = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/slider2.png"
+              src="https://blue-official-newt-770.mypinata.cloud/ipfs/QmZwF1cKsFNe1x8p86qAjpgwdogPT3RYp1dngCj7y6Xq99/slider2.png"
               alt="image"
               width={500}
               height={500}
@@ -64,7 +64,7 @@ const SliderOne = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/slider8.png"
+              src="https://blue-official-newt-770.mypinata.cloud/ipfs/QmZwF1cKsFNe1x8p86qAjpgwdogPT3RYp1dngCj7y6Xq99/slider8.png"
               alt="image"
               width={500}
               height={500}
@@ -79,7 +79,7 @@ const SliderOne = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/slider9.png"
+              src="https://blue-official-newt-770.mypinata.cloud/ipfs/QmZwF1cKsFNe1x8p86qAjpgwdogPT3RYp1dngCj7y6Xq99/slider9.png"
               alt="image"
               width={500}
               height={500}
@@ -94,7 +94,7 @@ const SliderOne = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/slider5.png"
+              src="https://blue-official-newt-770.mypinata.cloud/ipfs/QmZwF1cKsFNe1x8p86qAjpgwdogPT3RYp1dngCj7y6Xq99/slider5.png"
               alt="image"
               width={500}
               height={500}
@@ -108,7 +108,7 @@ const SliderOne = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/slider7.png"
+              src="https://blue-official-newt-770.mypinata.cloud/ipfs/QmZwF1cKsFNe1x8p86qAjpgwdogPT3RYp1dngCj7y6Xq99/slider7.png"
               alt="image"
               width={500}
               height={500}

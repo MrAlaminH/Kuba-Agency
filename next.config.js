@@ -8,7 +8,7 @@ module.exports = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'images.unsplash.com',
+        hostname: 'blue-official-newt-770.mypinata.cloud',
         port: '',
         pathname: '**',
       },

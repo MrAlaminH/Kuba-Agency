@@ -52,17 +52,17 @@ const ChooseUs = () => {
               <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none anima mask-section">
                 <li>
                   <Image
-                    src="/carolo.png"
+                    src="https://blue-official-newt-770.mypinata.cloud/ipfs/QmTcYu6JBKtxJeZMgE2eEc7Ts9cwC1DcpPfLLwtRhZgM2K/carolo.png"
                     alt="logo"
                     height={120}
                     width={120}
                   />
                 </li>
                 <li>
-                  <Image src="/masum.png" alt="logo" height={120} width={120} />
+                  <Image src="https://blue-official-newt-770.mypinata.cloud/ipfs/QmTcYu6JBKtxJeZMgE2eEc7Ts9cwC1DcpPfLLwtRhZgM2K/masum.png" alt="logo" height={120} width={120} />
                 </li>
                 <li>
-                  <Image src="/nazny.png" alt="logo" height={120} width={120} />
+                  <Image src="https://blue-official-newt-770.mypinata.cloud/ipfs/QmTcYu6JBKtxJeZMgE2eEc7Ts9cwC1DcpPfLLwtRhZgM2K/nazny.png" alt="logo" height={120} width={120} />
                 </li>
               </ul>
             </div>
@@ -80,18 +80,18 @@ const ChooseUs = () => {
             <div>
               <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none anima mask-section">
                 <li>
-                  <Image src="/nazny.png" alt="logo" height={120} width={120} />
+                  <Image src="https://blue-official-newt-770.mypinata.cloud/ipfs/QmTcYu6JBKtxJeZMgE2eEc7Ts9cwC1DcpPfLLwtRhZgM2K/nazny.png" alt="logo" height={120} width={120} />
                 </li>
                 <li>
                   <Image
-                    src="/carolo.png"
+                    src="https://blue-official-newt-770.mypinata.cloud/ipfs/QmTcYu6JBKtxJeZMgE2eEc7Ts9cwC1DcpPfLLwtRhZgM2K/carolo.png"
                     alt="logo"
                     height={120}
                     width={120}
                   />
                 </li>
                 <li>
-                  <Image src="/masum.png" alt="logo" height={120} width={120} />
+                  <Image src="https://blue-official-newt-770.mypinata.cloud/ipfs/QmTcYu6JBKtxJeZMgE2eEc7Ts9cwC1DcpPfLLwtRhZgM2K/masum.png" alt="logo" height={120} width={120} />
                 </li>
               </ul>
             </div>
